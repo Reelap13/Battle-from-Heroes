@@ -72,6 +72,7 @@ NavMeshProjectSettings:
   m_LastAgentTypeID: -887442657
   m_Settings:
   - serializedVersion: 3
+
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
