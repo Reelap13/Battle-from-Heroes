@@ -32,7 +32,8 @@ public class Field : MonoBehaviour
         _pack = null;
     }
 
+    public UnitsPack Pack { get { return _pack; } }
     public bool IsFree { get { return _pack == null; } }
     public int MovementCost { get { return _movementCost; } }
-    public KeyValuePair<int, int> Indexs { get { return _indexes; } }
+    public KeyValuePair<int, int> Indexes { get { return _indexes; } }
 }

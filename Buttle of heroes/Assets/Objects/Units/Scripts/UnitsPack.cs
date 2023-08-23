@@ -15,4 +15,6 @@ public class UnitsPack : MonoBehaviour
     {
         
     }
+
+    public int TeamId { get { return 0; } }
 }
