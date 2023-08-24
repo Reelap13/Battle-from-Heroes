@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,6 +23,7 @@ public class Unit : MonoBehaviour
 
     public int NumberOfUnits { get; private set; }
     public int TeamId { get; private set; }
+    public Field Field { get; private set; }    
     public Transform Transform { get; private set; }
 
     private void Awake()
@@ -29,10 +31,11 @@ public class Unit : MonoBehaviour
         Transform = transform;
     }
 
-    public void SetPreset(int numberOfUnit, int teamId)
+    public void SetPreset(int numberOfUnit, int teamId, Field field)
     {
         NumberOfUnits = numberOfUnit;
         TeamId = teamId;
+        Field = field;
         onCreating.Invoke();
     }
 

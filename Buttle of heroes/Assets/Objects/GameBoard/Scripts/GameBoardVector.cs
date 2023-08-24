@@ -10,14 +10,29 @@ public class GameBoardVector : MonoBehaviour
 
     private Vector3 _rightVector;
     private Vector3 _rightDownVector;
-
-    private void Awake()
+    private bool _isCalculate = false;
+    private void CalculateVectors()
     {
         _rightDownVector = _rightDownPoint.position - _startingPoint.position;
         _rightVector = _rightDownVector.x * new Vector3(2f, 0f, 0f);
+        _isCalculate = true;
     }
 
-    public Vector3 Right { get { return _rightVector; } }
-    public Vector3 RightDown { get { return _rightDownVector; } }
+    public Vector3 Right 
+    { 
+        get 
+        {
+            if (!_isCalculate) CalculateVectors();
+            return _rightVector; 
+        } 
+    }
+    public Vector3 RightDown 
+    { 
+        get 
+        { 
+            if (!_isCalculate) CalculateVectors();
+            return _rightDownVector; 
+        } 
+    }
 
 }

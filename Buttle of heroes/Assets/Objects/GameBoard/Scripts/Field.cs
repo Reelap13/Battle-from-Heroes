@@ -17,7 +17,7 @@ public class Field : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log(_indexes);
+        Debug.Log(Indexes);
     }
 
     public void Enter(Unit unit)

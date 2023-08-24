@@ -15,13 +15,35 @@ public class GameBoardController : MonoBehaviour
     private GameBoard _board;
     private Transform _transform;
 
-    private void Start()
+    private void Awake()
     {
         _transform = GetComponent<Transform>();
 
         _board = new GameBoard(this);
         _board.CreateFields();
     }
+
+
+
+    public LinkedList<Field> GetLeftSide()
+    {
+        return ClearFieldsFromOcupated(_board.GetLeftSide());
+    }
+
+    public LinkedList<Field> GetRightSide()
+    {
+        return ClearFieldsFromOcupated(_board.GetRightSide());
+    }
+
+    private LinkedList<Field> ClearFieldsFromOcupated(LinkedList<Field> fields)
+    {
+        LinkedList<Field> freeFields = new LinkedList<Field> ();
+        foreach (Field field in fields)
+            if (field.IsFree) 
+                freeFields.AddLast (field);
+        return freeFields;
+    }
+
 
     public GameObject CreateField() { return Instantiate(_fieldPref) as GameObject;  }
     public int Length { get { return length; } }
