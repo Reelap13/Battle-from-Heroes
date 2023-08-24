@@ -1,0 +1,27 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Teams : MonoBehaviour
+{
+    [SerializeField] private Team _leftTeam;
+    [SerializeField] private Team _rightTeam;
+
+    private int LEFT_TEAM_ID = 0;
+    private int RIGHT_TEAM_ID = 1;
+
+    private void Start()
+    {
+        CreateUnits();
+    }
+
+    public void CreateUnits()
+    {
+        LinkedList<Field> leftSide = GameController.Instance.Board.GetLeftSide();
+        GameController.Instance.Units.CreateUnitsOnTheBoard(_leftTeam.UnitPacks, LEFT_TEAM_ID, leftSide);
+        
+        LinkedList<Field> rightSide = GameController.Instance.Board.GetRightSide();
+        GameController.Instance.Units.CreateUnitsOnTheBoard(_rightTeam.UnitPacks, RIGHT_TEAM_ID, rightSide);
+
+    }
+}

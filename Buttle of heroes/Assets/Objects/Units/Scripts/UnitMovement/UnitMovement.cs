@@ -12,6 +12,18 @@ public abstract class UnitMovement : MonoBehaviour
     [SerializeField] protected int _movement;
 
     protected Transform Transform => _unit.transform;
+    protected Field Field => _unit.Field;
+
+    protected void Awake()
+    {
+        void SetPreset()
+        {
+            Debug.Log("Moving");
+            Transform.position = Field.transform.position;
+        }
+
+        _unit.onCreating.AddListener(SetPreset);
+    }
 
     /*public UnitMovement()
     {

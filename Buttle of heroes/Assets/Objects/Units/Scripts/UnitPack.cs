@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameController : Singleton<GameController>
+public class UnitPack : MonoBehaviour
 {
     [field: SerializeField]
-    public GameBoardController Board;
+    public int NumberOfUnit;
     [field: SerializeField]
-    public Units Units;
+    public GameObject UnitPref;
 }

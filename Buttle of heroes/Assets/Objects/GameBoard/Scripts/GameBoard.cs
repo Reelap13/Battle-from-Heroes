@@ -147,6 +147,33 @@ public class GameBoard
         return null;
     }
 
+    public LinkedList<Field> GetLeftSide()
+    {
+        return GetVerticalLine(0);
+    }
+
+    public LinkedList<Field> GetRightSide()
+    {
+        return GetVerticalLine(_controller.Length - 1);
+    }
+
+    private LinkedList<Field> GetVerticalLine(int startingRow)
+    {
+        LinkedList<Field> availableFields = new LinkedList<Field>();
+
+        for (int line = 0; line < _controller.Weith; line++)
+        {
+            int tiltSide = -line / 2;
+            int row = tiltSide + startingRow;
+
+            Field field;
+            if (_board.TryGetValue( new KeyValuePair<int, int>(row, line), out field))
+                availableFields.AddLast(field);
+        }
+
+        return availableFields;
+    }
+
     public LinkedList<Field> GetAllNearesFields(KeyValuePair<int, int> startingIndexes)
     {
         void AddFieldIfExist(LinkedList<Field> fields, int row, int line)
