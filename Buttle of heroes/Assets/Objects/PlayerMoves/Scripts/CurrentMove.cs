@@ -6,7 +6,7 @@ public class CurrentMove : MonoBehaviour
 {
     [SerializeField] private PlayersMoves PlayersMoves;
 
-    Unit _currentUnit;
+    private Unit _currentUnit;
 
     public void StartGame()
     {
@@ -26,4 +26,6 @@ public class CurrentMove : MonoBehaviour
         _currentUnit.FinishUnitMove();
         StartNextMove();
     }
+
+
 }

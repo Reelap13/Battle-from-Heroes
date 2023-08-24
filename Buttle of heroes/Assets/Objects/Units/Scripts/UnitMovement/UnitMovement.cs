@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.U2D;
 
 public abstract class UnitMovement : MonoBehaviour
 {
@@ -20,10 +21,12 @@ public abstract class UnitMovement : MonoBehaviour
         {
             Transform.position = Field.transform.position;
         }
-
         _unit.onCreating.AddListener(SetPreset);
+
         _unit.onBegginingOfMove.AddListener(ShowAvailableFieldForMoving);
         _unit.onEndOfMove.AddListener(HideAvailableFieldForMoving);
+
+        onBegginingOfMoving.AddListener(HideAvailableFieldForMoving);
     }
 
     /*public UnitMovement()

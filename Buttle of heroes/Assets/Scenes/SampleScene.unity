@@ -351,6 +351,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 969a4a5ab35247842b0051417ace9b31, type: 3}
+--- !u!114 &1340647160 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 336629348849405893, guid: 57433a429d22f924190c56c775a9b20b, type: 3}
+  m_PrefabInstance: {fileID: 2461267254644725969}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cc32651d751d4d4ab1c02394f8312ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1392609674 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3443099450669108893, guid: 0846995d166a8914a8d38548970c40e5, type: 3}
@@ -912,6 +923,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 138b970e4d190d346aac3ecf92a1989b, type: 3}
+--- !u!1001 &2461267254644725969
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 184856916949379206, guid: 57433a429d22f924190c56c775a9b20b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.576553
+      objectReference: {fileID: 0}
+    - target: {fileID: 184856916949379206, guid: 57433a429d22f924190c56c775a9b20b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.80432177
+      objectReference: {fileID: 0}
+    - target: {fileID: 184856916949379206, guid: 57433a429d22f924190c56c775a9b20b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 90.58175
+      objectReference: {fileID: 0}
+    - target: {fileID: 184856916949379206, guid: 57433a429d22f924190c56c775a9b20b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 184856916949379206, guid: 57433a429d22f924190c56c775a9b20b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 184856916949379206, guid: 57433a429d22f924190c56c775a9b20b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 184856916949379206, guid: 57433a429d22f924190c56c775a9b20b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 184856916949379206, guid: 57433a429d22f924190c56c775a9b20b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 184856916949379206, guid: 57433a429d22f924190c56c775a9b20b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 184856916949379206, guid: 57433a429d22f924190c56c775a9b20b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 336629348849405893, guid: 57433a429d22f924190c56c775a9b20b, type: 3}
+      propertyPath: _defaultCursor
+      value: 
+      objectReference: {fileID: -1488613266, guid: 458ec2658b183a74f92005beb43da594, type: 3}
+    - target: {fileID: 4173903997408813676, guid: 57433a429d22f924190c56c775a9b20b, type: 3}
+      propertyPath: m_Name
+      value: 'MouseCursorController '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57433a429d22f924190c56c775a9b20b, type: 3}
 --- !u!1001 &3000709686850349374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -968,6 +1040,10 @@ PrefabInstance:
       propertyPath: Units
       value: 
       objectReference: {fileID: 1849538380}
+    - target: {fileID: 5797285356246722335, guid: 33baac70b997c5d49acf70c4f288ce48, type: 3}
+      propertyPath: Cursor
+      value: 
+      objectReference: {fileID: 1340647160}
     - target: {fileID: 5797285356246722335, guid: 33baac70b997c5d49acf70c4f288ce48, type: 3}
       propertyPath: PlayerUI
       value: 
@@ -1054,3 +1130,4 @@ SceneRoots:
   - {fileID: 5516414965930126391}
   - {fileID: 1369507327503199123}
   - {fileID: 406710552}
+  - {fileID: 2461267254644725969}

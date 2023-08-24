@@ -12,6 +12,8 @@ public class GameController : Singleton<GameController>
     public PlayerUI PlayerUI;
     [field: SerializeField]
     public PlayersMoves PlayersMoves;
+    [field: SerializeField]
+    public MouseCursorController Cursor;
 
     private void Awake()
     {
