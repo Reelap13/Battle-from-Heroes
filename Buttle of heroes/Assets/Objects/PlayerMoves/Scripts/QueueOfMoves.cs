@@ -19,10 +19,16 @@ public class QueueOfMoves : MonoBehaviour
         GameController.Instance.Units.onCreatingUnit.AddListener(AddUnit);
     }
 
-    public void StartNextMove()
+    public Unit GetNextUnit()
     {
-        _currentMove = GetFollowingMoves();
+        if (_currentMove.Count != 0)
+            _currentMove.RemoveFirst();
+         
+        if (_currentMove.Count == 0)
+            _currentMove = GetFollowingMoves();
+
         onChangingCurrentMove.Invoke(GetCurrentMove());
+        return _currentMove.First.Value;
     }
 
     public void AddUnit(Unit unit)

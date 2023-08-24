@@ -22,6 +22,8 @@ public abstract class UnitMovement : MonoBehaviour
         }
 
         _unit.onCreating.AddListener(SetPreset);
+        _unit.onBegginingOfMove.AddListener(ShowAvailableFieldForMoving);
+        _unit.onEndOfMove.AddListener(HideAvailableFieldForMoving);
     }
 
     /*public UnitMovement()
@@ -33,4 +35,5 @@ public abstract class UnitMovement : MonoBehaviour
     public abstract void ShowAvailableFieldForMoving();
     public abstract void HideAvailableFieldForMoving();
     public abstract void Move(Field targetField);
+    public int Movement { get { return _movement; } }
 }

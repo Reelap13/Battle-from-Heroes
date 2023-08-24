@@ -13,18 +13,28 @@ public class GameBoardController : MonoBehaviour
     [SerializeField] private int weigth;
 
     private GameBoard _board;
+    private GameBoardPainter _painter;
     private Transform _transform;
 
     private void Awake()
     {
         _transform = GetComponent<Transform>();
 
+        _painter = new GameBoardPainter();
         _board = new GameBoard(this);
         _board.CreateFields();
     }
 
 
+    public LinkedList<Field> GetAllAvailableFieldsToMeleeAttack(Field startingField, int movement, int attackDistance, int teamId)
+    {
+        return _board.FindAllAvailableFieldsToAttack(startingField.Indexes, movement, attackDistance, teamId);
+    }
 
+    public LinkedList<Field> GetAllAvailableFieldsToMoveByGround(Field startingField, int movement)
+    {
+        return _board.FindAllAvailableFieldsToMove(startingField.Indexes, movement);
+    }
     public LinkedList<Field> GetLeftSide()
     {
         return ClearFieldsFromOcupated(_board.GetLeftSide());
@@ -43,6 +53,11 @@ public class GameBoardController : MonoBehaviour
                 freeFields.AddLast (field);
         return freeFields;
     }
+
+    public void PaintAttackedFields(LinkedList<Field> fields) => _painter.PaintAttackedFields(fields);
+    public void ClearAttackedField() => _painter.ClearAttackedField();
+    public void PaintMovementFields(LinkedList<Field> fields) => _painter.PaintMovementFields(fields);
+    public void ClearMovementField() => _painter.ClearMovementField();
 
 
     public GameObject CreateField() { return Instantiate(_fieldPref) as GameObject;  }
