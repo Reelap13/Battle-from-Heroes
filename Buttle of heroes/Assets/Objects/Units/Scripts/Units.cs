@@ -40,7 +40,7 @@ public class Units : MonoBehaviour
         return unit;
     }
 
-    public Field[] ShuffleField(LinkedList<Field> fields)
+    private Field[] ShuffleField(LinkedList<Field> fields)
     {
         Field[] shuffledField = new Field[fields.Count];
         {

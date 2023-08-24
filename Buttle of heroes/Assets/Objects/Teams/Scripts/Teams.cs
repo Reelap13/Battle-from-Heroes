@@ -7,13 +7,8 @@ public class Teams : MonoBehaviour
     [SerializeField] private Team _leftTeam;
     [SerializeField] private Team _rightTeam;
 
-    private int LEFT_TEAM_ID = 0;
-    private int RIGHT_TEAM_ID = 1;
-
-    private void Start()
-    {
-        CreateUnits();
-    }
+    private const int LEFT_TEAM_ID = 0;
+    private const int RIGHT_TEAM_ID = 1;
 
     public void CreateUnits()
     {
