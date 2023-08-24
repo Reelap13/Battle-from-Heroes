@@ -3,22 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class UnitTakingDamage
+public class UnitTakingDamage: MonoBehaviour
 {
     public UnityEvent onDieing = new UnityEvent();
     public UnityEvent<float> onDamageTaken = new UnityEvent<float>();
     public UnityEvent<float> onHealthTaken = new UnityEvent<float>();
 
-    protected int _healthOfOneUnit;
+    [SerializeField] protected Unit _unit;
+    [SerializeField] protected int _healthOfOneUnit;
+    protected int NumberOfUnit => _unit.NumberOfUnits;
 
     protected float _health;
-    protected Unit _unit;
 
-    public UnitTakingDamage(Unit unit, int healthOfOneUnit)
+    private void Awake()
     {
-        _unit = unit;
-        _healthOfOneUnit = healthOfOneUnit;
-        _health = healthOfOneUnit * unit.NumberOfUnits;
+        void SetPreset() { _health = NumberOfUnit * _healthOfOneUnit; }
+        _unit.onCreating.AddListener(SetPreset);
     }
 
     public virtual void TakeDamage(float damage)

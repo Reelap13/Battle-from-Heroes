@@ -3,21 +3,37 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Unit
+public class Unit : MonoBehaviour
 {
+    public UnityEvent onCreating = new UnityEvent();
     public UnityEvent onBegginingOfMove = new UnityEvent();
     public UnityEvent onEndOfMove = new UnityEvent();
 
-    private string _name;
-    public int NumberOfUnits { get; set; }
-    public UnitAttack Attack { get; set; }
-    public UnitTakingDamage TakeDamage { get; set; }
-    public UnitMovement Movement { get; set; }
+    [field: SerializeField]
+    public UnitAttack Attack { get; private set; }
+    [field: SerializeField]
+    public UnitTakingDamage TakeDamage { get; private set; }
+    [field: SerializeField]
+    public UnitMovement Movement { get; private set; }
+    [field: SerializeField]
+    public string Name { get; private set; }
+    [field: SerializeField]
+    public int Initiative { get; private set; }
 
-    public Unit(string name, int numberOfUnits)
+    public int NumberOfUnits { get; private set; }
+    public int TeamId { get; private set; }
+    public Transform Transform { get; private set; }
+
+    private void Awake()
     {
-        _name = name;
-        NumberOfUnits = numberOfUnits;
+        Transform = transform;
+    }
+
+    public void SetPreset(int numberOfUnit, int teamId)
+    {
+        NumberOfUnits = numberOfUnit;
+        TeamId = teamId;
+        onCreating.Invoke();
     }
 
     public void StartUnitMove()

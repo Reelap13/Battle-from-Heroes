@@ -3,25 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public abstract class UnitMovement
+public abstract class UnitMovement : MonoBehaviour
 {
     public UnityEvent onBegginingOfMoving = new UnityEvent();
     public UnityEvent onEndOfMoving = new UnityEvent();
 
-    protected Unit _unit;
-    protected int _movement;
-    protected int _initiative;
-    protected Transform _transform;
+    [SerializeField] protected Unit _unit;
+    [SerializeField] protected int _movement;
 
-    public UnitMovement(Unit unit, int movement, int initiative, Transform transform)
+    protected Transform Transform => _unit.transform;
+
+    /*public UnitMovement()
     {
-        _unit = unit;
-        _movement = movement;
-        _initiative = initiative;
-        _transform = transform;
         _unit.onBegginingOfMove.AddListener(ShowAvailableFieldForMoving);
         _unit.onEndOfMove.AddListener(HideAvailableFieldForMoving);
-    }
+    }*/
 
     public abstract void ShowAvailableFieldForMoving();
     public abstract void HideAvailableFieldForMoving();
