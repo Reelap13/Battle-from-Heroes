@@ -18,7 +18,6 @@ public abstract class UnitMovement : MonoBehaviour
     {
         void SetPreset()
         {
-            Debug.Log("Moving");
             Transform.position = Field.transform.position;
         }
 

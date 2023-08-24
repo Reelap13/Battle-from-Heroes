@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7811715771623444060}
   - component: {fileID: 725703853054874133}
   m_Layer: 0
-  m_Name: UnitPack
+  m_Name: Skeleton100
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,4 +45,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NumberOfUnit: 100
-  UnitPref: {fileID: 2024080301707744044, guid: 352626d401e2af24cb7bd4b24f3f583c, type: 3}
+  UnitPref: {fileID: 5164827532517556310, guid: 1d6789d5fb61417419d6d18b70677b93, type: 3}

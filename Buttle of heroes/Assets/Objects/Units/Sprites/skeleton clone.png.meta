@@ -1,0 +1,3471 @@
+fileFormatVersion: 2
+guid: 820bc29f50b70c14d993bf629585fa98
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skeleton clone_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1117
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd11ac0a83170c44883a4213fdd59267
+      internalID: -2125961277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1117
+        width: 51
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60edcdd86133ba4593a68bfdb82a07a
+      internalID: 2099511471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_2
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1117
+        width: 53
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b06ae388e2d4347833a43e860dd629
+      internalID: -1546029567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_3
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1117
+        width: 59
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ac507fc51cf9646a836498fd86602b
+      internalID: 1408548975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_4
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1117
+        width: 43
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7781c589dd9b141a94ef5e5720ed11
+      internalID: 58021703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_5
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1117
+        width: 43
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be7d83b1f761b6468d0e55b3f2fb897
+      internalID: -1803888488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_6
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1117
+        width: 43
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267ab71eddf2b8e4f98587968306a8b7
+      internalID: 239463084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_7
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1117
+        width: 43
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79afe0deb70e0e543a55bfb5f864af15
+      internalID: 427018264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_8
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1121
+        width: 43
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116b85085143c6040bfef3d427beecbd
+      internalID: -2049002934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_9
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1006
+        width: 54
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc5e76710e6eae4bb4b8775f6fd62fa
+      internalID: 475196294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1006
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97374b592f80b04193a7ec1796c9d22
+      internalID: -1142636963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_11
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1005
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebeea5b127b413949b30c9e5314ad3f7
+      internalID: 1048376778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_12
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1005
+        width: 67
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c8a89b917194143abc88698036f3df
+      internalID: -1400334682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_13
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1007
+        width: 60
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76b48ec09d6de546b747ffbe7a0f93c
+      internalID: 933746262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_14
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1004
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7499960e67fb0a4086be40a8540cdcc
+      internalID: 450705066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 887
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d618f48260d59f40a191734f82dddeb
+      internalID: -875378695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_16
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 886
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac6d99a65bc5fb459972b60182ac708
+      internalID: 1320388368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_17
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 888
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53819508ecf70314c9899e29225cb486
+      internalID: 1981465473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_18
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 890
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2e3217a0b94ef42a3b5b81feb22d3c
+      internalID: -990547311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_19
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 889
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219a0fdb173654a4c83946a2502d9119
+      internalID: -1362872014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_20
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 889
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae65aaa51094b834ba4e282b8b54e56e
+      internalID: 1793145348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 772
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387f4e161fffb324495ff4f391fd4e4d
+      internalID: -518464293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_22
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 806
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21a19eb967962148a3b9571c8dd7d79
+      internalID: 1828259881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_23
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 809
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe4dc3078de5b846959e737ef31738d
+      internalID: 1731081151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_24
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 809
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb683a513138c042b9be26eb31ff78b
+      internalID: 120723666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_25
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 809
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020515e60c72e2641bc488a56bf03bf2
+      internalID: -671433685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_26
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 809
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc032bd96722ca48a6dd890cce46f0c
+      internalID: 1773817980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_27
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 809
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494e531353dcb4f46bff3dc5e8e89256
+      internalID: -2018090687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_28
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 809
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c8c3658d29d6948be6487fe414b986
+      internalID: 1047631293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_29
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 809
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99403cea44d45c84db5d1e8f4f174f95
+      internalID: 381395844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_30
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 731
+        width: 35
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6675fb9afd9ebfc4ca23af486fb8fbbc
+      internalID: 274423467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_31
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 731
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c4cd04660d3d642b6afbc9c44b7bc7
+      internalID: -1166218000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_32
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 731
+        width: 71
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe3fa0bf78493544a68688efda79691
+      internalID: -93005899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_33
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 731
+        width: 68
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23925e7b4e4601341a235421bd761d1f
+      internalID: -484085616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_34
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 731
+        width: 58
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7fac2562443d2428c2418cc3518460
+      internalID: 413992755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_35
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 789
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23b1f78540933142a5f8df01d50ce68
+      internalID: -454558336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_36
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 789
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638893c77de541c419d9352aa8941ad7
+      internalID: 737928958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_37
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 789
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7041171da8cd4404bad556e3dca38757
+      internalID: 65322867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_38
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 789
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d289f730c5df2498681c2297c56c56
+      internalID: -839396416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 789
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37347bb384df71b4b8285d26c798591a
+      internalID: 1647341764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_40
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 789
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a03654b4f27c264cbd219b5548aaba5
+      internalID: 688930520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_41
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 789
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb87377bf6335645a46f35f5297d43d
+      internalID: -610895484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_42
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 789
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6e7be8dcb9d8a4e962573a6cb75b53
+      internalID: -1481236741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_43
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 789
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4716ceebc222c543980619e2b56d5b1
+      internalID: 2050668711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_44
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 786
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c8f7d52103fae4caae1457bf091f2f
+      internalID: 1750271105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_45
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 789
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24696463413f14468545fedc3fd8e06
+      internalID: -413769321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_46
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 789
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed01833c9b6e8ea4daef0b039adf683e
+      internalID: -2007681297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_47
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 789
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c63834fddd1b7b4ca5b2110ae961b8c
+      internalID: 1755427169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_48
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 789
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d57540ff8fcc2489bd10da297dcf2d
+      internalID: -1446408896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_49
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 789
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac9a0d6637b95144b037568ccb9f00d
+      internalID: -1443158931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_50
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 789
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaaa3d4b093ebb40ae6405923acdc59
+      internalID: -1309457933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_51
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 789
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6016f02843432c64e803af86c4c2f720
+      internalID: 1589031616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_52
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 786
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad8d922d9318594cb9ec031c47081ed
+      internalID: -71215727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_53
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 789
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71754ea71002be74a8d6734ea1c3e933
+      internalID: -833383918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_54
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 773
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77dd0875cb40d0488b5fccfadb7ec28
+      internalID: 945324029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_55
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 773
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9743948ead7ad4684dff07e371a53a
+      internalID: -1047259837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_56
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 771
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca56236dae92c454eaa396ac50bb1a23
+      internalID: -1922339275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_57
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 773
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234bddce3ca098a45ad1f75573656bb6
+      internalID: 536084071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_58
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 773
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61871ea64a4db584cbbc464a5f7f3d68
+      internalID: 1590194051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_59
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 773
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240cca29113b6c64887da67c6b260d7c
+      internalID: 1641626669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_60
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 770
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9813b379fcb2214abc17b05874db6f6
+      internalID: -849978135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_61
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 773
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed7486df8b191349a42449eda0f553a
+      internalID: -1634591648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_62
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 773
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe7c99f594008a4b9376efac7452716
+      internalID: 1760455143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_63
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 773
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593d56fcfee030544926091578940f7e
+      internalID: 1579705933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_64
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 773
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d624de8e21d80fe4091b3cae4fa1dce0
+      internalID: -1169585545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_65
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 773
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ace06fd6e1370439b2bdb87e98c39a
+      internalID: 1081881492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_66
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 773
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad9e52eab7fffc4283ca54fa3c265e3
+      internalID: 178219301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_67
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 773
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca50ab8f812cfb48b0529e214b0d628
+      internalID: -288772403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_68
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 773
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9daee6473ed338d48919d96677e1603d
+      internalID: -1986669495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_69
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 756
+        width: 17
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e9ae00f74d39743864d62a9c49f0c0
+      internalID: -260920798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_70
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 607
+        width: 62
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae9b7854c668c741949b611149d29ae
+      internalID: 25010585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_71
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 607
+        width: 73
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53115820523ade4db59fece8cf8b733
+      internalID: -1910954258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_72
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 607
+        width: 85
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aaba229041a99440a9c8af8c9c6dbc2
+      internalID: 594950626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_73
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 604
+        width: 105
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29055db0d21ec4b429402f665beeff32
+      internalID: 933900224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_74
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 604
+        width: 94
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bbbaae3a0714a41b4953b5b78e7bd9
+      internalID: -447128860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_75
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 613
+        width: 41
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca66962e176a5645934b16aa32dc0bb
+      internalID: -343067215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_76
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 604
+        width: 78
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58f1992bc392e74aa96a6e5356f0cb9
+      internalID: -314468236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_77
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 606
+        width: 74
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c88bc06af1ac440884c4652937c422
+      internalID: -1911655922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_78
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 605
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cede8dfeef96644b0b23b65cc84f1a
+      internalID: 367916197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_79
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 486
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1e1d1bcd501084c9919c5b366fc9d2
+      internalID: -1604601213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_80
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 486
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0412a515668c49d468c7829efd4c4cbd
+      internalID: 1219351447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_81
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 486
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e198d3e4c9bff478d721dce4bd4223
+      internalID: 265512128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_82
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 486
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ffe18260f54a74f82bc64cfd4bc3b5
+      internalID: 812480405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_83
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 486
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced01ca99afe27747aea166b98c6d8b4
+      internalID: 1121249399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_84
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 458
+        width: 67
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a757ac6cf135834478afb5ae99bc23d1
+      internalID: -841627793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_85
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 444
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc8e7674ebbc2044aca310b5257085c
+      internalID: 429912707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_86
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 452
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b02553b84b1bd14980ac9d4f2e27b6b
+      internalID: -491507176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_87
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 456
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5da4e7db2597f4d9e55bc1a3bfacae
+      internalID: 2129143868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_88
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 456
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f206185a5f6725d469d5661dea17437d
+      internalID: 1579217478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_89
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 454
+        width: 33
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37846c1097f34e4e8dc82b0642e1633
+      internalID: -506249741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_90
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 305
+        width: 51
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e7a3f01c88d4d4ba20444a203977fe
+      internalID: 871994251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_91
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 305
+        width: 91
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be53127858aa224d9036f89498b8935
+      internalID: 99252319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_92
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 312
+        width: 46
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c21daa6d9420fb4189bc160df78a4fd
+      internalID: 33458922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_93
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 305
+        width: 91
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306552b292325774b936da874d1b0d9c
+      internalID: -534249571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_94
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 305
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54daca5e324b25d49bbfbc78f204c7e9
+      internalID: -897955960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_95
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 305
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e982281275d3d74aa44251d9c6ed973
+      internalID: -364943865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_96
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 305
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cae135600c4ff438cfd90b0349c5b4
+      internalID: 1460625837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_97
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 305
+        width: 39
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12dde7f0b247394c8b36a5ab1e634cb
+      internalID: 971825253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_98
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 305
+        width: 38
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055f8f64bb57a75449f4cc17aff08e54
+      internalID: 1781454853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_99
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 154
+        width: 61
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8797d6824090748a692874573889a0
+      internalID: -1575320484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_100
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 155
+        width: 46
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7fcb57a6f10d747ac5a9ccfdabc9dc
+      internalID: -1817708928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_101
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 230
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75588d4342288864da356cc999d1a5bd
+      internalID: -415926449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_102
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 156
+        width: 48
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5492f52faad8e9e47af0770e4022546d
+      internalID: 2033830380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_103
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 149
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acf263b3669c7c428d32f7ce5587749
+      internalID: 573819962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_104
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 156
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f17fb6bc5970cf45bfc9def2f5479f2
+      internalID: 878141440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_105
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 220
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a2b42339bb6704bb16789e934313b3
+      internalID: 1888044643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_106
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 158
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5bb1ffa85aae74b9547c8ab0254688
+      internalID: 1822515672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_107
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 6
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e601f27834f754db9a2db27f79ac8a
+      internalID: 1926521945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_108
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 6
+        width: 61
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdf8565f75f41145a78efaab4ce999b
+      internalID: 1565312892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_109
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 6
+        width: 44
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e55add6fd73584e8d74751a55bfde2
+      internalID: -690913936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_110
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 6
+        width: 36
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab79b572ad47464494f1fb891ed3897
+      internalID: -1345206414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_111
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 76
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ab599afdeb55d4381c245353b20d18
+      internalID: 678299110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_112
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 73
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f545ed7753d929f4fbf392232772d39c
+      internalID: -1074981713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_113
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 73
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c9bc6b3a45b0c4ab6ebb53d999d9a9
+      internalID: 623199765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_114
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 76
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9891187b39723344995989ded6c1628
+      internalID: 1604982263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_115
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 76
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2617c6a72c4d4a14cb3540a007797310
+      internalID: -208352412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_116
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 76
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae333ffd2633b8d488b33155480a4343
+      internalID: 753392620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_117
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 73
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9179a36e3d4edce46888ed7a44f51037
+      internalID: -860072452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_118
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 23
+        width: 49
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce2299fc6d769c44b7a6dd30a401bbe
+      internalID: -1815020961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_119
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 55
+        width: 124
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5468acd7a2a87d4448edd7612aa6cb04
+      internalID: 1002862349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_120
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 58
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93287d83824461645af78fcf41b0c547
+      internalID: -299207352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_121
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 58
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36b77c3059f955488037960536530a6
+      internalID: -2091280577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_122
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 58
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387ff6ef072cc3944bdda4aab53bc15d
+      internalID: 548850952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_123
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 58
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769516135d1869f44b75bc07fa28d89d
+      internalID: 1804034581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_124
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 42
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5d114e3ac0f50499ce398a243dd95b
+      internalID: -324901342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_125
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 42
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679d9278d64f74946a6cb6c14d590f6f
+      internalID: -796686263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_126
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 42
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b618942c17a984f9014421232d1058
+      internalID: 1366115504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_127
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 42
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff89a39e0b57c3429b4f058587cfbd6
+      internalID: -1169377980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_128
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 39
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24340c7d326e34479b3f5bf4a480130
+      internalID: -1963108867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_129
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 42
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579a1a4f29b30b4439984c1c3389cb85
+      internalID: -817565257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_130
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 42
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c7414cc7104d94692f54fc18a89de0
+      internalID: -269421286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_131
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 42
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d221c598ecdb77f4982372ae1ebf21dd
+      internalID: 770045643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_132
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 40
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b2be16fcd67034d8bb488eaf6b1d88
+      internalID: 1844261291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_133
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 39
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d20b2a84f384e42a0f9f085a315ad5
+      internalID: 420344802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_134
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 42
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08059fb158fbacc40a6400c7fe84bb4f
+      internalID: -1401479038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_135
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 42
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769547ddf7fd5d8499038c88ebe7a56f
+      internalID: 822907319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_136
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 42
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768b091fe1259204b867b9a27e7932c9
+      internalID: -189803131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_137
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 42
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31f6769cef68a44aaaade37e03a2a26
+      internalID: -1902163406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_138
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 42
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bddec54b7ea0a49abaeddb9a54ee94
+      internalID: -1626507315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_139
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 23
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4606197f405f8944daa6ac74eec41678
+      internalID: 1602083127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_140
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 26
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcf4eb7388e55a4eaaccbfd1ba450d1
+      internalID: 1041444768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_141
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 26
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66405d0817a86a4984e35b1bc07e57f
+      internalID: -672621131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_142
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 26
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d19aa1a15d2628499931c93d924ecf8
+      internalID: -188668327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_143
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 26
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cef9731baf2b140b3e9bf9a530e82b
+      internalID: 1189596975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_144
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 23
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52478d6bfa2198143b5ecd06067342bf
+      internalID: 178641889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_145
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 26
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063eecaa070a5fd45b5262ddb1a45ae9
+      internalID: -576427974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_146
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 26
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc35cc52af575fa4abf0b91ed976bc12
+      internalID: 1289792782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_147
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 26
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc6a85aafa8bff4f85d485bac3701f9
+      internalID: 272177888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_148
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 26
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7831b2a3e153de4ca55bc3fc90dc6ca
+      internalID: 994170064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_149
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 26
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbb85610f9ca5948a6b7d6406310920
+      internalID: -4977366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_150
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 26
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc64223e3e999134a9c806a7bae1aa12
+      internalID: -268064231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton clone_151
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 26
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ed05a8a4771cf48a692f11ad0ddd96
+      internalID: 1701729453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 645c22e937c64f3409a5b1efebc8609a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      skeleton clone_0: -2125961277
+      skeleton clone_1: 2099511471
+      skeleton clone_10: -1142636963
+      skeleton clone_100: -1817708928
+      skeleton clone_101: -415926449
+      skeleton clone_102: 2033830380
+      skeleton clone_103: 573819962
+      skeleton clone_104: 878141440
+      skeleton clone_105: 1888044643
+      skeleton clone_106: 1822515672
+      skeleton clone_107: 1926521945
+      skeleton clone_108: 1565312892
+      skeleton clone_109: -690913936
+      skeleton clone_11: 1048376778
+      skeleton clone_110: -1345206414
+      skeleton clone_111: 678299110
+      skeleton clone_112: -1074981713
+      skeleton clone_113: 623199765
+      skeleton clone_114: 1604982263
+      skeleton clone_115: -208352412
+      skeleton clone_116: 753392620
+      skeleton clone_117: -860072452
+      skeleton clone_118: -1815020961
+      skeleton clone_119: 1002862349
+      skeleton clone_12: -1400334682
+      skeleton clone_120: -299207352
+      skeleton clone_121: -2091280577
+      skeleton clone_122: 548850952
+      skeleton clone_123: 1804034581
+      skeleton clone_124: -324901342
+      skeleton clone_125: -796686263
+      skeleton clone_126: 1366115504
+      skeleton clone_127: -1169377980
+      skeleton clone_128: -1963108867
+      skeleton clone_129: -817565257
+      skeleton clone_13: 933746262
+      skeleton clone_130: -269421286
+      skeleton clone_131: 770045643
+      skeleton clone_132: 1844261291
+      skeleton clone_133: 420344802
+      skeleton clone_134: -1401479038
+      skeleton clone_135: 822907319
+      skeleton clone_136: -189803131
+      skeleton clone_137: -1902163406
+      skeleton clone_138: -1626507315
+      skeleton clone_139: 1602083127
+      skeleton clone_14: 450705066
+      skeleton clone_140: 1041444768
+      skeleton clone_141: -672621131
+      skeleton clone_142: -188668327
+      skeleton clone_143: 1189596975
+      skeleton clone_144: 178641889
+      skeleton clone_145: -576427974
+      skeleton clone_146: 1289792782
+      skeleton clone_147: 272177888
+      skeleton clone_148: 994170064
+      skeleton clone_149: -4977366
+      skeleton clone_15: -875378695
+      skeleton clone_150: -268064231
+      skeleton clone_151: 1701729453
+      skeleton clone_16: 1320388368
+      skeleton clone_17: 1981465473
+      skeleton clone_18: -990547311
+      skeleton clone_19: -1362872014
+      skeleton clone_2: -1546029567
+      skeleton clone_20: 1793145348
+      skeleton clone_21: -518464293
+      skeleton clone_22: 1828259881
+      skeleton clone_23: 1731081151
+      skeleton clone_24: 120723666
+      skeleton clone_25: -671433685
+      skeleton clone_26: 1773817980
+      skeleton clone_27: -2018090687
+      skeleton clone_28: 1047631293
+      skeleton clone_29: 381395844
+      skeleton clone_3: 1408548975
+      skeleton clone_30: 274423467
+      skeleton clone_31: -1166218000
+      skeleton clone_32: -93005899
+      skeleton clone_33: -484085616
+      skeleton clone_34: 413992755
+      skeleton clone_35: -454558336
+      skeleton clone_36: 737928958
+      skeleton clone_37: 65322867
+      skeleton clone_38: -839396416
+      skeleton clone_39: 1647341764
+      skeleton clone_4: 58021703
+      skeleton clone_40: 688930520
+      skeleton clone_41: -610895484
+      skeleton clone_42: -1481236741
+      skeleton clone_43: 2050668711
+      skeleton clone_44: 1750271105
+      skeleton clone_45: -413769321
+      skeleton clone_46: -2007681297
+      skeleton clone_47: 1755427169
+      skeleton clone_48: -1446408896
+      skeleton clone_49: -1443158931
+      skeleton clone_5: -1803888488
+      skeleton clone_50: -1309457933
+      skeleton clone_51: 1589031616
+      skeleton clone_52: -71215727
+      skeleton clone_53: -833383918
+      skeleton clone_54: 945324029
+      skeleton clone_55: -1047259837
+      skeleton clone_56: -1922339275
+      skeleton clone_57: 536084071
+      skeleton clone_58: 1590194051
+      skeleton clone_59: 1641626669
+      skeleton clone_6: 239463084
+      skeleton clone_60: -849978135
+      skeleton clone_61: -1634591648
+      skeleton clone_62: 1760455143
+      skeleton clone_63: 1579705933
+      skeleton clone_64: -1169585545
+      skeleton clone_65: 1081881492
+      skeleton clone_66: 178219301
+      skeleton clone_67: -288772403
+      skeleton clone_68: -1986669495
+      skeleton clone_69: -260920798
+      skeleton clone_7: 427018264
+      skeleton clone_70: 25010585
+      skeleton clone_71: -1910954258
+      skeleton clone_72: 594950626
+      skeleton clone_73: 933900224
+      skeleton clone_74: -447128860
+      skeleton clone_75: -343067215
+      skeleton clone_76: -314468236
+      skeleton clone_77: -1911655922
+      skeleton clone_78: 367916197
+      skeleton clone_79: -1604601213
+      skeleton clone_8: -2049002934
+      skeleton clone_80: 1219351447
+      skeleton clone_81: 265512128
+      skeleton clone_82: 812480405
+      skeleton clone_83: 1121249399
+      skeleton clone_84: -841627793
+      skeleton clone_85: 429912707
+      skeleton clone_86: -491507176
+      skeleton clone_87: 2129143868
+      skeleton clone_88: 1579217478
+      skeleton clone_89: -506249741
+      skeleton clone_9: 475196294
+      skeleton clone_90: 871994251
+      skeleton clone_91: 99252319
+      skeleton clone_92: 33458922
+      skeleton clone_93: -534249571
+      skeleton clone_94: -897955960
+      skeleton clone_95: -364943865
+      skeleton clone_96: 1460625837
+      skeleton clone_97: 971825253
+      skeleton clone_98: 1781454853
+      skeleton clone_99: -1575320484
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
