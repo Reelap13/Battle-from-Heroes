@@ -1,15 +1,18 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Units : MonoBehaviour
 {
-    private LinkedList<Unit> units;
+    public UnityEvent<Unit> onCreatingUnit = new UnityEvent<Unit>();
+    public UnityEvent<Unit> onDieingUnit = new UnityEvent<Unit>();
+
+    private LinkedList<Unit> _units;
     private void Awake()
     {
-        units = new LinkedList<Unit>();
+        _units = new LinkedList<Unit>();
     }
 
     public void CreateUnitsOnTheBoard(UnitPack[] unitPacks, int teamId, LinkedList<Field> fields)
@@ -27,16 +30,24 @@ public class Units : MonoBehaviour
             Field field = shuffledField[i];
 
             Unit unit = CreateUnit(unitPack, teamId, field);
-            units.AddLast(unit);
+            _units.AddLast(unit);
+            onCreatingUnit.Invoke(unit);
         }
 
     }
 
     private Unit CreateUnit(UnitPack pack, int teamId, Field field)
     {
+        void RemoveUnit(Unit unit)
+        {
+            _units.Remove(unit);
+            onDieingUnit.Invoke(unit);
+        }
+
         GameObject unitObject = Instantiate(pack.UnitPref) as GameObject;
         Unit unit = unitObject.GetComponent<Unit>();
         unit.SetPreset(pack.NumberOfUnit, teamId, field);
+        unit.onDieing.AddListener(RemoveUnit);
         return unit;
     }
 

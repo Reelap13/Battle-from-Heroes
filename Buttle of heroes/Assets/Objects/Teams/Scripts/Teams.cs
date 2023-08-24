@@ -10,6 +10,11 @@ public class Teams : MonoBehaviour
     private const int LEFT_TEAM_ID = 0;
     private const int RIGHT_TEAM_ID = 1;
 
+    private void Start()
+    {
+        CreateUnits();
+    }
+
     public void CreateUnits()
     {
         LinkedList<Field> leftSide = GameController.Instance.Board.GetLeftSide();

@@ -7,6 +7,8 @@ public class Team : MonoBehaviour
     [field: SerializeField]
     public string TeamName;
     [field: SerializeField]
+    public Sprite HeroSprite;
+    [field: SerializeField]
     public UnitPack[] UnitPacks;
 
 
