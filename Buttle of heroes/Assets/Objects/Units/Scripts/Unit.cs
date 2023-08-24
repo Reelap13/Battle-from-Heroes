@@ -59,4 +59,15 @@ public class Unit : MonoBehaviour
     {
         onEndOfMove.Invoke();
     }
+
+    public void MoveToField(Field targetField)
+    {
+        if (targetField.IsFree)
+        {
+            Field.Leave();
+            Field = targetField;
+            Movement.Move(targetField);
+            targetField.Enter(this);
+        }
+    }
 }

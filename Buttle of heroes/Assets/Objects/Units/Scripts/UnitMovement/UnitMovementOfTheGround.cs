@@ -8,7 +8,9 @@ public class UnitMovementOfTheGround : UnitMovement
 
     public override void Move(Field targetField)
     {
-        throw new System.NotImplementedException();
+        onBegginingOfMoving.Invoke();
+        Transform.position = targetField.transform.position;
+        onEndOfMoving.Invoke();
     }
 
     public override void ShowAvailableFieldForMoving()

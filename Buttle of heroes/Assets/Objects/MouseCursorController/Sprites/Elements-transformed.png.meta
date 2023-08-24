@@ -1,0 +1,4901 @@
+fileFormatVersion: 2
+guid: 458ec2658b183a74f92005beb43da594
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elements-transformed_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 243
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e90325964d78f4459589c53b98b4640
+      internalID: -1028630295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 242
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8995381b968badb4da93fc884e95897f
+      internalID: -1778173932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 242
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ca2b09d903ced45b3d828494f6bcf2
+      internalID: -1923110458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 242
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7296f3652da1f45a24bd16e4e392e4
+      internalID: -428793677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_4
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 242
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dec277168b86541bee8322aa6af372
+      internalID: 1356550933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_5
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 237
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd03cdbfaacd87246a71b86e654c198a
+      internalID: 2072680523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 241
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6102d5684fd247149b35e5ebc090851a
+      internalID: 1807637011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_7
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 248
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa184dd49b891894a8ff9ee2a01435b6
+      internalID: 1945719218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_8
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 244
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b934bf4fbefced43942e3dc9f6d4a27
+      internalID: -1806801716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_9
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 237
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d5b7f05ef1d1f49ab95d65746ae807
+      internalID: 359587246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_10
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 242
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cafd2c19cef344489d6e0afced9805
+      internalID: 436319571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_11
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 249
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f58e7aca6507234394e15fb555efe88
+      internalID: -1418956411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_12
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 243
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ddf9c37c992a948b42e4b62561b6e5
+      internalID: 2040772853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_13
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 241
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2449c50cf6b9ca04b834c3e049f9008d
+      internalID: -1457396762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_14
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 246
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacd9aa053354724cb7038e4b284daff
+      internalID: 862210462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_15
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 243
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bba519aed75e5f46a2c4bbe017b5598
+      internalID: 2084792864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_16
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 242
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4d9cfea53e23a45b7b000d7c84a042
+      internalID: -254787380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_17
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 243
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01142de33fe14041bd337ad694112ce
+      internalID: 317188635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_18
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 233
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bc4bec1be403e49ba588dca436d91d
+      internalID: 841168174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_19
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 240
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf492d9731d67c4398dddcb157bb5dc
+      internalID: -361088213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_20
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 248
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eaf61acb41adb841ae3ff4a08e4b4de
+      internalID: -1472994585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_21
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 247
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da60097d6232614097f44addc32a449
+      internalID: 1051649472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_22
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 251
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77b6138348ebbe4793d256f4a89639c
+      internalID: -995209441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_23
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 247
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6722ad1f2b0fadd469a203f648906db9
+      internalID: -565490618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_24
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 247
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5418c8f5d18595b4fb35b854a8eed668
+      internalID: -1957424707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_25
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 247
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716de4dc6b5acd14fae70cdffe800e33
+      internalID: -1449237583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_26
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 247
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89331ae0e53d274eafacc5ac6712e9a
+      internalID: -1380475242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 203
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f549dadecf3d04da6f54cb9f23ef40
+      internalID: -1624993540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_28
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 203
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3e3ab27ace9dd47ba2023d78295570
+      internalID: -1884510815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_29
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 204
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaef8d7a2f445047a8b27befe8df604
+      internalID: -121146439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_30
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 203
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f3b947d8b9b6347878e707bbaf732f
+      internalID: -1783761474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_31
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 201
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a398f94ac08bb4f48924505be78e035a
+      internalID: -86004712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_32
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 189
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf1925ea92abde4a82163d06255b91b
+      internalID: 228872007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_33
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 189
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0d30a82e9e92a46a49d5f9efe3aff6
+      internalID: 748490193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_34
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 214
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a331d1875028fec4bb3e20a0d671f035
+      internalID: -1889417827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_35
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 189
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c70ae1d3395bc45811d705fec1b108
+      internalID: -647683012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_36
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 218
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be66d4dbc9bd6574091aade394d00042
+      internalID: 1356861266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_37
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 189
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5436efbc1c3e72847800af8108f0a9ff
+      internalID: 54473627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_38
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 203
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74beeade08bfcad41a55cc8726a26d4b
+      internalID: -763088252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_39
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 214
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc774c7140d28b94bbd38d3b9b8d378f
+      internalID: -177226147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_40
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 214
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3971a3e87a68af449b25c26bba273ab
+      internalID: 1308626725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_41
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 214
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd9539b019834e4f90eca06f40e9e82
+      internalID: 965659527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_42
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 214
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a688deec755f14eb7038dd75a3d4aa
+      internalID: -1160897850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_43
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 212
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95834b6b9451954ba3c5a92363925bc
+      internalID: 1700683621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_44
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 215
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19048458a701fec438bcd0919405a3fb
+      internalID: 189321041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_45
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 214
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7163d25c16d3c9141b81a6204f396d6c
+      internalID: -1986411997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_46
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 202
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f12d037fedefcd4e9cab12fcc50632c
+      internalID: 628069186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_47
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 189
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524932062e26f124ea9a9980fe2e1b1e
+      internalID: 481295770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_48
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 189
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2acf868cfc042340b84c051b96c290f
+      internalID: -1621201856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_49
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 189
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e0c03413184494cb294307d13ca286
+      internalID: -1854407857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_50
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 189
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e805ef92ac510142af38ec25aaf21dd
+      internalID: -812942876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_51
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 189
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0917ab4507e3140a531a7679495075
+      internalID: -1403679480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_52
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 207
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c46cfb3bb62e14eb0f031eb9891422
+      internalID: -1738378756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_53
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 204
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f72bb860c2948340846e371b3e0a428
+      internalID: -1877793096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_54
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 189
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303e3243bb9ec704599bb720741bad66
+      internalID: 706764642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_55
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 203
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e27912bd9cb28f45b1baa15a971fa0c
+      internalID: -877761957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_56
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 203
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbfa02b83109ee4dadd26c3874a0280
+      internalID: 816075474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_57
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 187
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b387f4921d38f4eacf533266f19117
+      internalID: -229265474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_58
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 189
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1402a31e83285469ae75098f212364
+      internalID: 1353136949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_59
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 189
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7aea78b2c9927439c553c29844ca6d
+      internalID: 1351845909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_60
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 189
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b8c492b4d31084a89f87c76c26854f
+      internalID: -1305425978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_61
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 189
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329f6230cd00474478edf93b45861198
+      internalID: 309265324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_62
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 189
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ecfa6704f538848894b9cd3ef96a31
+      internalID: 1637957782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_63
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 189
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637b1bc426d1c26468e3c7f499652228
+      internalID: -1236420805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_64
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 189
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae21af062a4e17409dae21b372a1877
+      internalID: -1722932289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_65
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 189
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01bcb3bd8270ff4abb6653554c26318
+      internalID: -668398496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_66
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 196
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a62313164a329a4682f07b44dee4f19
+      internalID: 1953247836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_67
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 189
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a190898c601842499d8eec71693b950
+      internalID: 1974824977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_68
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 189
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a372acb5a6d5dfd4fb3acd51418da461
+      internalID: 1904519631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_69
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 189
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fad6fb3fee9632449e0eefed8db1a02
+      internalID: 75571085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_70
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 187
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6d16b9d45b5264f82003407f1706d4
+      internalID: 55423364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_71
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 179
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfedafc430e7778428e20cc5722ffdea
+      internalID: -618456073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_72
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 179
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4372ef91832ad3c4fb99b099e2f1e8e2
+      internalID: 891473049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_73
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 182
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ecaef9ae133dc45847428a62919408
+      internalID: -1463222072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_74
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 182
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481d14e835be4cd49a4d91dfd120392c
+      internalID: -1966332809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_75
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 179
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b177ed0ffba2f0540807967d6daa97f7
+      internalID: 1114889270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_76
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 182
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d145c1f8c606a4d8dcb755f92a3999
+      internalID: 1185382463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_77
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 182
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3da63dacdabac4c99fd704e49ef242
+      internalID: -1637019724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_78
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 142
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56156f3783283fa4b92c58c6b8ddb35b
+      internalID: -1869384755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_79
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 142
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a5114f9a3a5774bae4e586436ea3b4
+      internalID: -1539669994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_80
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 143
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ddb7d0bf2123647acc0fb841dcf952
+      internalID: -2143406493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_81
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 147
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6c384f18659f544a41413a22e658fd
+      internalID: 204095763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_82
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 144
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f6ad893db7d4e489369c184d713f39
+      internalID: 911596355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_83
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 142
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1bd1a80f2453743bc75956bdd6c9b3
+      internalID: 1059787737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_84
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 143
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577cd70176cfeda4ebdae7c23ce1e879
+      internalID: 1640583651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_85
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 147
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b219b375436c241955fda3d9b9e053
+      internalID: -1599252378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_86
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 144
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a02065bc4d3bc14f99f5055e26f41e1
+      internalID: 2134416234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_87
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 140
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4b9dd0369bd7a42b87010f83044103
+      internalID: 39278304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_88
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 142
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a263631d65c5f3a4290e42ecaf8812b4
+      internalID: -447021052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_89
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 138
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5688592276b79144b83cc3ee44fb2259
+      internalID: 1342230533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_90
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 136
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e022644934009dd4190a29b9da741200
+      internalID: -372335283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_91
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 151
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85062e13e34def14e98b1cf2a355dd55
+      internalID: 642584042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_92
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 151
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bf0815658943c48ad21b4a7b3bd762
+      internalID: 803215276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_93
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 151
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b186e1f9257b81b45a1b39436b9657b2
+      internalID: -1752269270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_94
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 134
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffad12ef15719a438f4010ed26aab95
+      internalID: -1429402876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_95
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 151
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56fd0da6eeadca478030c466129ba7c
+      internalID: 448840983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_96
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 0
+        width: 86
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5777cbb98d5fb4dafe06b13da6da05
+      internalID: -2077562228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_97
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 151
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad8ccb87dea7d04da90a62a2dcc48c5
+      internalID: 50160729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_98
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 151
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee17cba9ee330f479b67b302c3ab863
+      internalID: 706615736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_99
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 151
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ead1158b266160429c7f36f19278f8e
+      internalID: -1402713867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_100
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 154
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9022ce306d5d0b4bbe740d2797a813f
+      internalID: 295672561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_101
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 134
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3a5401a13530042ac1aa0b3ac34076
+      internalID: -1768576578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_102
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 134
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd439603cc4a4f4790424c1388ade2c
+      internalID: 160411038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_103
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 131
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7004215667fb474a89875428c2a0dea
+      internalID: 1877741963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_104
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 134
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5fe4734cc3eb24f82b94886596b693
+      internalID: -1915125819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_105
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 134
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19062ca24d92ac48a2586f336b15d47
+      internalID: 599111250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_106
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 134
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407192ff603d8914387ded99338ed7c3
+      internalID: -1980713530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_107
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 134
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c4d1537b52ba1438ab76c8ea86758c
+      internalID: 1686005865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_108
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 131
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90db45e276acb18459d952f01155a918
+      internalID: 754460514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_109
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 134
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e685d8f697a86a342920a1525c994508
+      internalID: 1998813752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_110
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 134
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d2393542939544980e8b6834fb5e1b
+      internalID: -1696605168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_111
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 96
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182dac210c0f9a5458a6663b288f939d
+      internalID: -2143602434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_112
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 96
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9664c7fb0b7164b9d28a525d37ce3c
+      internalID: -1830273109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_113
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 95
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab0b0cc14211ca4fb22899da140388d
+      internalID: 386752322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_114
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 97
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5572a5232ae86ae4f92e2d274ba65f36
+      internalID: 560913564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_115
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 97
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8913cce4a40f9b544a0bf39c14b159e1
+      internalID: -2128044201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_116
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 97
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c59e0b358a9fb446ad6ee6435074a7e
+      internalID: -1211921680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_117
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 97
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1495c0d580fded4781f2acb362ae0fb
+      internalID: -889964861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_118
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 97
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b9eca430b18a44bbe30dbb62b6f955
+      internalID: 1260385051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_119
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 118
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e7bf544a486384ca375dcff74cb657
+      internalID: 554005359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_120
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 118
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5434ecc03100a144e901f77f1d2892c7
+      internalID: -888601035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_121
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 116
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bbe2ffcec8d0d4791d668f6de63d19
+      internalID: 220828206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_122
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 118
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a9f45fd657e8f4e900a542f60f298e
+      internalID: -652481102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_123
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 118
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c95c9d52929525499b20ea8c24416d9
+      internalID: -1371924912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_124
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 115
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b648b555dca6f478a815579b6660a3
+      internalID: -706492560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_125
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 118
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9294c269da69e41be709e2eed3d114
+      internalID: -1894068637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_126
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 118
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c787c096651074c964605d2a67e84e
+      internalID: -36278635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_127
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 118
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bfbd749ff19864795223f271352691
+      internalID: 577961944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_128
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 118
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793ca5c45f7379a4fa34fa6dd5dc6b86
+      internalID: -1108728056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_129
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 118
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286b0e43155c0b3429826514b26e9c21
+      internalID: -2109375982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_130
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 118
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b93725aaef0f164b977e96455b7ee2f
+      internalID: 1220369515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_131
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 118
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d97f7cde44dacd46a61fcfe5d89eb9e
+      internalID: 1366993230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_132
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 110
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999c362c19fa6d049b21698412733c86
+      internalID: 505774072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_133
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 110
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51723abc1fc3c394c8c69cb05d8a83f4
+      internalID: 23791273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_134
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 108
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9f52d3d56203f47b37e9c8476b7571
+      internalID: 347402117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_135
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 108
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e122e299b4198d84e8e26382055624d7
+      internalID: 529440491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_136
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 108
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7503b16ffcd8d8e40afd14542c3ade11
+      internalID: 1494936358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_137
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 106
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336596cc92671c14597a60b509b61acd
+      internalID: -1358109177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_138
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 108
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0b867d96b06ab44bfcfb8349a58256
+      internalID: -1692641559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_139
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 96
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4800d471bfc3346b078c92c4f94202
+      internalID: -175356080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_140
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 97
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b8543c91aaec3438e7b853a054278d
+      internalID: -1350844399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_141
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 66
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6565122818c5cce4fb74cab564ad833c
+      internalID: -457528262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_142
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 63
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43c48510b6d55640aac86ee97fdb98a
+      internalID: -2110071784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_143
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 57
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c38e3471c4f954d8d5a3588b5c3277
+      internalID: 825174556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_144
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 57
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda55cdb489c64641a5fd34b59ba01ea
+      internalID: 333846349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_145
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 57
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bda10fa82152c5408c222bed66f791a
+      internalID: -862399585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_146
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 58
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9328ad1a4dcc47948b50f09d117e56f6
+      internalID: -800379504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_147
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 61
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcba0b2a10b8bf44497761a0e64c1dc6
+      internalID: -1911219262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_148
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 61
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d1ac0b1b543934a8ff3a7e3ceabddc
+      internalID: 1467520128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_149
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 61
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad3bc655efda204695c841739b9b543
+      internalID: -407896655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_150
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 61
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd298a628ac6f4478da16d644ac161e
+      internalID: 361740935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_151
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 71
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf80e9ff189db94bbebbcd1c38aaa13
+      internalID: -1463704847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_152
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 75
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5e7736be7bf034ea21579876dd79a8
+      internalID: -1167210933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_153
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 75
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b4672ce25d8ec46a9378ce82d15c37
+      internalID: -395227733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_154
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 73
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27f798b61f417445b25c671360117b0
+      internalID: 1650788887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_155
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 75
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc70a2baea6abd438e8812fbbc20cd3
+      internalID: 666582506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_156
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 75
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e160ee4fb1e63f4f88e1b839e65b55d
+      internalID: 51593823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_157
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 75
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b748c5a8f13e7d14a8d2df72b4279771
+      internalID: 1312484841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_158
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 73
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a58b2cadb92fed419de32baf6de07ad
+      internalID: -1723674033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_159
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 57
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd54d86a65afc24dae386542a152dc7
+      internalID: 847799854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_160
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 57
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49aab0d243235ff4f85160b604eb5f81
+      internalID: -928041293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_161
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 61
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377cde0451bc87f43860e3c9e6606650
+      internalID: 1221123307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_162
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 61
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e482b8ac0021254bb95b484fd230cee
+      internalID: 937556178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_163
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 61
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f366c7500ed2c4a933937ec31c85e5
+      internalID: -548000151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_164
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 62
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deab798197b458b4f937bacee96979d5
+      internalID: -1061607683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_165
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 63
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9264a28702ed841896493aa2f2d03c
+      internalID: -406063857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_166
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 63
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c24d3e3f2acc964fb3a2e431b5d898d
+      internalID: -1039380454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_167
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 60
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783df0e067d91a34ab41fb49857abd27
+      internalID: 2139007759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_168
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 43
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0002859f32a41d045949cb4aad2aa611
+      internalID: -739785872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_169
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 43
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a6f784d77f1b04e885af5d141c3da7
+      internalID: 167772533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_170
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 48
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20510f10d82ac5844b1dec32c7852c91
+      internalID: 1830863855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_171
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 45
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dafc169958a8244a8fb94aeb72eee2
+      internalID: 206696165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_172
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 43
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837f168429e374b4e89dead306a0a3dc
+      internalID: -90313796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_173
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 29
+        width: 64
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c83945de5e6ff42b8bdd27a9723cf9
+      internalID: 405468503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_174
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 43
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09159c8b909879f4c8576b347be82d6e
+      internalID: -1651112766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_175
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 46
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e41ae7c7ec8ae41951ccb186b2bb9b
+      internalID: 1957017288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_176
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 42
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173935227d76b344b9fb01d94dc774a2
+      internalID: -503423119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_177
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 42
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ebd94eb0bff78489af22c539605401
+      internalID: -2057857803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_178
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 42
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c971737f0ed7b44b05a1e0c6028fbd
+      internalID: -1263689550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_179
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 42
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c937f94a6ab7a4fa92e0e18cdceed2
+      internalID: 785492221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_180
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 42
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc737e77e6cbbf8488166f40ba11c316
+      internalID: 2137480625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_181
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd34b9862caad84cb1ca6f5209c170b
+      internalID: 232460110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_182
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 6
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6afdbe85a068a4bad36338651e0f0c
+      internalID: -1114084650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_183
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 6
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4252e62220d76fe499805918e356a9ec
+      internalID: -1881282779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_184
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 6
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9115db5e705665b4bbd76785e6f657d9
+      internalID: -1157644797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_185
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 7
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc512478e372c874d847054d9d9ff162
+      internalID: 716290935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_186
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 6
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9583a1c24fc54d743844ab3a36e47d08
+      internalID: -384991931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_187
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 6
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c933290ce29144990425e12eeebf33
+      internalID: 1484508700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_188
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 6
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a0333a034fad04e8dcfa164c0c84e7
+      internalID: 2115829882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_189
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 5
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19093d49e9973964cbb4844c0a9c3de3
+      internalID: -2021314113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_190
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 5
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922ff12691ad29748840bd060720b9c7
+      internalID: -1719964684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_191
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 5
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45e579fe8d774140a716096c1e74393
+      internalID: -927149488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_192
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 5
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7081d519fc4f31d479f99795efbb41fc
+      internalID: -1630861815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_193
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 29
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0457e7347ac41b4080b62a9bfc7a1fb
+      internalID: 816581203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_194
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 29
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb15aae8b2d2ef4eb1e729cc9a5e1a8
+      internalID: 1753143120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_195
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e707f3d669e91944bb124c632e5999cd
+      internalID: -286026131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_196
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 26
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00f3de9ae67f9540bb94e9f4fc8704f
+      internalID: 1712119192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_197
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 29
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e5c94ec136eaf48975d7d17f678c8b
+      internalID: -150653733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_198
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c48c0001cbf01c4686b2cb38f971482
+      internalID: 478777039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_199
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 29
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f68e61232b0a87419ce225d56e5a8c7
+      internalID: -987660557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_200
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 27
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a016f0bc3df4edc489617789720b1f13
+      internalID: -202173978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_201
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 26
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68efecdf27a39434585922f84387cd9e
+      internalID: -1921835839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_202
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 29
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29ac3a749478254a99f2b17717a1544
+      internalID: -1123655613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_203
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 10
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ef80e8d3361174289247bbfb9e42ed
+      internalID: -1317358044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_204
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469d1d7ce1a5d2349ab48b1b0a6d588a
+      internalID: -1711402481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_205
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 13
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4ca21d3f1feb64db2aea33374cc254
+      internalID: -1632144625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_206
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5125852b47b9b144ae6c37687801e43
+      internalID: 1797900625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_207
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 9
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba333889d0a712e4ea29bc8e36026d78
+      internalID: -2065022105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_208
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae118dadf095a64886b64a8eb710c06
+      internalID: 9958442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_209
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 13
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fa78683a615d9449cfa5485d5e6a22
+      internalID: 599176451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_210
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 13
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3530b0c2331bfaf45a7e7ef0672402d0
+      internalID: 574456107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_211
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 13
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d451ce8b5e929148a62178fef7c64a2
+      internalID: 1987650629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_212
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 13
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98481d19fe0096e4da2c0283d596016f
+      internalID: -970874450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_213
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 9
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3036d7e3f881e7649967e1bb549d62bf
+      internalID: -465035624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_214
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 6
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24045a16d7a1b148b9e3b354ca9195e
+      internalID: -916846869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_215
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 8
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2353d0e22444824d9e4202bb4b18100
+      internalID: -1120247295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-transformed_216
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 9
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa9133b514c22e458feed2373dbaa13
+      internalID: -814549735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6ad1c07b7b0d9154ebe61265625a030b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Elements-transformed_0: -1028630295
+      Elements-transformed_1: -1778173932
+      Elements-transformed_10: 436319571
+      Elements-transformed_100: 295672561
+      Elements-transformed_101: -1768576578
+      Elements-transformed_102: 160411038
+      Elements-transformed_103: 1877741963
+      Elements-transformed_104: -1915125819
+      Elements-transformed_105: 599111250
+      Elements-transformed_106: -1980713530
+      Elements-transformed_107: 1686005865
+      Elements-transformed_108: 754460514
+      Elements-transformed_109: 1998813752
+      Elements-transformed_11: -1418956411
+      Elements-transformed_110: -1696605168
+      Elements-transformed_111: -2143602434
+      Elements-transformed_112: -1830273109
+      Elements-transformed_113: 386752322
+      Elements-transformed_114: 560913564
+      Elements-transformed_115: -2128044201
+      Elements-transformed_116: -1211921680
+      Elements-transformed_117: -889964861
+      Elements-transformed_118: 1260385051
+      Elements-transformed_119: 554005359
+      Elements-transformed_12: 2040772853
+      Elements-transformed_120: -888601035
+      Elements-transformed_121: 220828206
+      Elements-transformed_122: -652481102
+      Elements-transformed_123: -1371924912
+      Elements-transformed_124: -706492560
+      Elements-transformed_125: -1894068637
+      Elements-transformed_126: -36278635
+      Elements-transformed_127: 577961944
+      Elements-transformed_128: -1108728056
+      Elements-transformed_129: -2109375982
+      Elements-transformed_13: -1457396762
+      Elements-transformed_130: 1220369515
+      Elements-transformed_131: 1366993230
+      Elements-transformed_132: 505774072
+      Elements-transformed_133: 23791273
+      Elements-transformed_134: 347402117
+      Elements-transformed_135: 529440491
+      Elements-transformed_136: 1494936358
+      Elements-transformed_137: -1358109177
+      Elements-transformed_138: -1692641559
+      Elements-transformed_139: -175356080
+      Elements-transformed_14: 862210462
+      Elements-transformed_140: -1350844399
+      Elements-transformed_141: -457528262
+      Elements-transformed_142: -2110071784
+      Elements-transformed_143: 825174556
+      Elements-transformed_144: 333846349
+      Elements-transformed_145: -862399585
+      Elements-transformed_146: -800379504
+      Elements-transformed_147: -1911219262
+      Elements-transformed_148: 1467520128
+      Elements-transformed_149: -407896655
+      Elements-transformed_15: 2084792864
+      Elements-transformed_150: 361740935
+      Elements-transformed_151: -1463704847
+      Elements-transformed_152: -1167210933
+      Elements-transformed_153: -395227733
+      Elements-transformed_154: 1650788887
+      Elements-transformed_155: 666582506
+      Elements-transformed_156: 51593823
+      Elements-transformed_157: 1312484841
+      Elements-transformed_158: -1723674033
+      Elements-transformed_159: 847799854
+      Elements-transformed_16: -254787380
+      Elements-transformed_160: -928041293
+      Elements-transformed_161: 1221123307
+      Elements-transformed_162: 937556178
+      Elements-transformed_163: -548000151
+      Elements-transformed_164: -1061607683
+      Elements-transformed_165: -406063857
+      Elements-transformed_166: -1039380454
+      Elements-transformed_167: 2139007759
+      Elements-transformed_168: -739785872
+      Elements-transformed_169: 167772533
+      Elements-transformed_17: 317188635
+      Elements-transformed_170: 1830863855
+      Elements-transformed_171: 206696165
+      Elements-transformed_172: -90313796
+      Elements-transformed_173: 405468503
+      Elements-transformed_174: -1651112766
+      Elements-transformed_175: 1957017288
+      Elements-transformed_176: -503423119
+      Elements-transformed_177: -2057857803
+      Elements-transformed_178: -1263689550
+      Elements-transformed_179: 785492221
+      Elements-transformed_18: 841168174
+      Elements-transformed_180: 2137480625
+      Elements-transformed_181: 232460110
+      Elements-transformed_182: -1114084650
+      Elements-transformed_183: -1881282779
+      Elements-transformed_184: -1157644797
+      Elements-transformed_185: 716290935
+      Elements-transformed_186: -384991931
+      Elements-transformed_187: 1484508700
+      Elements-transformed_188: 2115829882
+      Elements-transformed_189: -2021314113
+      Elements-transformed_19: -361088213
+      Elements-transformed_190: -1719964684
+      Elements-transformed_191: -927149488
+      Elements-transformed_192: -1630861815
+      Elements-transformed_193: 816581203
+      Elements-transformed_194: 1753143120
+      Elements-transformed_195: -286026131
+      Elements-transformed_196: 1712119192
+      Elements-transformed_197: -150653733
+      Elements-transformed_198: 478777039
+      Elements-transformed_199: -987660557
+      Elements-transformed_2: -1923110458
+      Elements-transformed_20: -1472994585
+      Elements-transformed_200: -202173978
+      Elements-transformed_201: -1921835839
+      Elements-transformed_202: -1123655613
+      Elements-transformed_203: -1317358044
+      Elements-transformed_204: -1711402481
+      Elements-transformed_205: -1632144625
+      Elements-transformed_206: 1797900625
+      Elements-transformed_207: -2065022105
+      Elements-transformed_208: 9958442
+      Elements-transformed_209: 599176451
+      Elements-transformed_21: 1051649472
+      Elements-transformed_210: 574456107
+      Elements-transformed_211: 1987650629
+      Elements-transformed_212: -970874450
+      Elements-transformed_213: -465035624
+      Elements-transformed_214: -916846869
+      Elements-transformed_215: -1120247295
+      Elements-transformed_216: -814549735
+      Elements-transformed_22: -995209441
+      Elements-transformed_23: -565490618
+      Elements-transformed_24: -1957424707
+      Elements-transformed_25: -1449237583
+      Elements-transformed_26: -1380475242
+      Elements-transformed_27: -1624993540
+      Elements-transformed_28: -1884510815
+      Elements-transformed_29: -121146439
+      Elements-transformed_3: -428793677
+      Elements-transformed_30: -1783761474
+      Elements-transformed_31: -86004712
+      Elements-transformed_32: 228872007
+      Elements-transformed_33: 748490193
+      Elements-transformed_34: -1889417827
+      Elements-transformed_35: -647683012
+      Elements-transformed_36: 1356861266
+      Elements-transformed_37: 54473627
+      Elements-transformed_38: -763088252
+      Elements-transformed_39: -177226147
+      Elements-transformed_4: 1356550933
+      Elements-transformed_40: 1308626725
+      Elements-transformed_41: 965659527
+      Elements-transformed_42: -1160897850
+      Elements-transformed_43: 1700683621
+      Elements-transformed_44: 189321041
+      Elements-transformed_45: -1986411997
+      Elements-transformed_46: 628069186
+      Elements-transformed_47: 481295770
+      Elements-transformed_48: -1621201856
+      Elements-transformed_49: -1854407857
+      Elements-transformed_5: 2072680523
+      Elements-transformed_50: -812942876
+      Elements-transformed_51: -1403679480
+      Elements-transformed_52: -1738378756
+      Elements-transformed_53: -1877793096
+      Elements-transformed_54: 706764642
+      Elements-transformed_55: -877761957
+      Elements-transformed_56: 816075474
+      Elements-transformed_57: -229265474
+      Elements-transformed_58: 1353136949
+      Elements-transformed_59: 1351845909
+      Elements-transformed_6: 1807637011
+      Elements-transformed_60: -1305425978
+      Elements-transformed_61: 309265324
+      Elements-transformed_62: 1637957782
+      Elements-transformed_63: -1236420805
+      Elements-transformed_64: -1722932289
+      Elements-transformed_65: -668398496
+      Elements-transformed_66: 1953247836
+      Elements-transformed_67: 1974824977
+      Elements-transformed_68: 1904519631
+      Elements-transformed_69: 75571085
+      Elements-transformed_7: 1945719218
+      Elements-transformed_70: 55423364
+      Elements-transformed_71: -618456073
+      Elements-transformed_72: 891473049
+      Elements-transformed_73: -1463222072
+      Elements-transformed_74: -1966332809
+      Elements-transformed_75: 1114889270
+      Elements-transformed_76: 1185382463
+      Elements-transformed_77: -1637019724
+      Elements-transformed_78: -1869384755
+      Elements-transformed_79: -1539669994
+      Elements-transformed_8: -1806801716
+      Elements-transformed_80: -2143406493
+      Elements-transformed_81: 204095763
+      Elements-transformed_82: 911596355
+      Elements-transformed_83: 1059787737
+      Elements-transformed_84: 1640583651
+      Elements-transformed_85: -1599252378
+      Elements-transformed_86: 2134416234
+      Elements-transformed_87: 39278304
+      Elements-transformed_88: -447021052
+      Elements-transformed_89: 1342230533
+      Elements-transformed_9: 359587246
+      Elements-transformed_90: -372335283
+      Elements-transformed_91: 642584042
+      Elements-transformed_92: 803215276
+      Elements-transformed_93: -1752269270
+      Elements-transformed_94: -1429402876
+      Elements-transformed_95: 448840983
+      Elements-transformed_96: -2077562228
+      Elements-transformed_97: 50160729
+      Elements-transformed_98: 706615736
+      Elements-transformed_99: -1402713867
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
