@@ -13,9 +13,11 @@ public class UnitMovementOfTheGround : UnitMovement
 
     public override void ShowAvailableFieldForMoving()
     {
-        throw new System.NotImplementedException();
+        LinkedList<Field> fields = GameController.Instance.Board.GetAllAvailableFieldsToMoveByGround(Field, _movement);
+        GameController.Instance.Board.PaintMovementFields(fields);
     }
     public override void HideAvailableFieldForMoving()
     {
+        GameController.Instance.Board.ClearMovementField();
     }
 }

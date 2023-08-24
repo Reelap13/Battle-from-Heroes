@@ -7,11 +7,19 @@ public class PlayersMoves : MonoBehaviour
 {
     [field: SerializeField]
     public QueueOfMoves Queue { get; private set; }
+    [field: SerializeField]
+    public CurrentMove CurrentMove { get; private set; }
 
     public void StartNextMove()
     {
-        Queue.StartNextMove();
+        CurrentMove.StartGame();
     }
+
+    public void FinishMove()
+    {
+        CurrentMove.FinishMove();
+    }
+
     public LinkedList<Unit> GetCurrentMove()
     {
         return Queue.GetCurrentMove();

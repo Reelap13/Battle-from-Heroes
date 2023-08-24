@@ -112,7 +112,7 @@ MonoBehaviour:
   onEndOfMove:
     m_PersistentCalls:
       m_Calls: []
-  <Attack>k__BackingField: {fileID: 0}
+  <Attack>k__BackingField: {fileID: 4235869085276240095}
   <TakingDamage>k__BackingField: {fileID: 1722368143603159592}
   <Movement>k__BackingField: {fileID: 8788867951736211674}
   <Name>k__BackingField: Skeleton
@@ -234,6 +234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8108867965221726775}
+  - component: {fileID: 4235869085276240095}
   m_Layer: 0
   m_Name: Attack
   m_TagString: Untagged
@@ -256,3 +257,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1498026265601933679}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4235869085276240095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9055604152439503760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae4270f18fda81b4a8dfc629ee32231d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _unit: {fileID: 4801856112987493919}
+  _minAttackDamageOfOneUnit: 5
+  _maxAttackDamageOfOneUnit: 5
+  _attackDistance: 1

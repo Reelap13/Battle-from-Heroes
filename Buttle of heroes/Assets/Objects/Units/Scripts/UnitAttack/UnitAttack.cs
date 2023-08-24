@@ -7,13 +7,14 @@ public abstract class UnitAttack : MonoBehaviour
     [SerializeField] protected Unit _unit;
 
     protected int NumberOfUnit => _unit.NumberOfUnits;
-    /*public UnitAttack(Unit unit)
+    protected Field Field => _unit.Field;
+
+    private void Awake()
     {
-        _unit = unit;
         _unit.onBegginingOfMove.AddListener(ShowAvailableUnitForAttacking);
         _unit.onEndOfMove.AddListener(HideAvailableUnitForAttacking);
     }
-*/
+
     public abstract void Attack(Unit unti);
     public abstract void ShowAvailableUnitForAttacking();
     public abstract void HideAvailableUnitForAttacking();

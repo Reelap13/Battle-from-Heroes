@@ -38,7 +38,7 @@ public class GameBoard
         LinkedList<Field> availableField = new LinkedList<Field>();
         LinkedList<Field> allDeletedFields = FindForAllDeletedFieldsByWayLength(startingIndexes, movement + attackDistance);
         foreach (var field in allDeletedFields)
-            if (!field.IsFree && field.Pack.TeamId != teamId)
+            if (!field.IsFree && field.Unit.TeamId != teamId)
                 availableField.AddLast(field);
 
         return availableField;
@@ -73,16 +73,13 @@ public class GameBoard
 
             foreach (var field in GetAllNearesFields(fieldIndexes))
             {
-                if (!field.IsFree)
-                {
-                    availableFields.AddLast(field);
-                    continue;
-                }
-
                 if (!findedField.ContainsKey(field.Indexes))
                 {
                     findedField.Add(field.Indexes, wayLength + 1);
                     availableFields.AddLast(field);
+
+                    if (!field.IsFree)
+                        continue;
                     fieldsIndexesUnderConsideration.Enqueue(field.Indexes);
                 }
             }

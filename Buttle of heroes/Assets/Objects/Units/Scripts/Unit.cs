@@ -46,6 +46,7 @@ public class Unit : MonoBehaviour
         NumberOfUnits = numberOfUnit;
         TeamId = teamId;
         Field = field;
+        field.Enter(this);
         onCreating.Invoke();
     }
 

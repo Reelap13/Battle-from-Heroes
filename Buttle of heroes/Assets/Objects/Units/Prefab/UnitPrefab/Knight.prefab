@@ -64,6 +64,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6077473546385605381}
+  - component: {fileID: 765460623862365030}
   m_Layer: 0
   m_Name: Attack
   m_TagString: Untagged
@@ -86,6 +87,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8097927101663039367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &765460623862365030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045279732188084009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae4270f18fda81b4a8dfc629ee32231d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _unit: {fileID: 7173225783112457293}
+  _minAttackDamageOfOneUnit: 4
+  _maxAttackDamageOfOneUnit: 6
+  _attackDistance: 1
 --- !u!1 &5409688971683169625
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,7 +267,7 @@ MonoBehaviour:
   onEndOfMove:
     m_PersistentCalls:
       m_Calls: []
-  <Attack>k__BackingField: {fileID: 0}
+  <Attack>k__BackingField: {fileID: 765460623862365030}
   <TakingDamage>k__BackingField: {fileID: 5635845106107718769}
   <Movement>k__BackingField: {fileID: 3620096239196448144}
   <Name>k__BackingField: Knight
