@@ -7,7 +7,7 @@ public class UnitTakingDamage: MonoBehaviour
 {
     public UnityEvent onDieing = new UnityEvent();
     public UnityEvent<float> onDamageTaken = new UnityEvent<float>();
-    public UnityEvent<float> onHealthTaken = new UnityEvent<float>();
+    public UnityEvent<float> onHealthTaken= new UnityEvent<float>();
 
     [SerializeField] protected Unit _unit;
     [SerializeField] protected int _healthOfOneUnit;

@@ -7,11 +7,11 @@ public class Field : MonoBehaviour
 {
     [SerializeField] private int _movementCost;
 
-    public UnityEvent<UnitsPack> onEnter = new UnityEvent<UnitsPack>();
-    public UnityEvent<UnitsPack> onLeave = new UnityEvent<UnitsPack>();
+    public UnityEvent<Unit> onEnter = new UnityEvent<Unit>();
+    public UnityEvent<Unit> onLeave = new UnityEvent<Unit>();
 
     private KeyValuePair<int, int> _indexes;
-    private UnitsPack _pack = null;
+    private Unit _unit = null;
 
     public void setPreset(KeyValuePair<int, int> indexes) { _indexes = indexes; }
 
@@ -20,20 +20,20 @@ public class Field : MonoBehaviour
         Debug.Log(_indexes);
     }
 
-    public void Enter(UnitsPack pack)
+    public void Enter(Unit unit)
     {
-        _pack = pack;
-        onEnter.Invoke(pack);
+        _unit = unit;
+        onEnter.Invoke(unit);
     }
 
     public void Leave()
     {
-        onLeave.Invoke(_pack); 
-        _pack = null;
+        onLeave.Invoke(_unit);
+        _unit = null;
     }
 
-    public UnitsPack Pack { get { return _pack; } }
-    public bool IsFree { get { return _pack == null; } }
+    public Unit Pack { get { return _unit; } }
+    public bool IsFree { get { return _unit == null; } }
     public int MovementCost { get { return _movementCost; } }
     public KeyValuePair<int, int> Indexes { get { return _indexes; } }
 }

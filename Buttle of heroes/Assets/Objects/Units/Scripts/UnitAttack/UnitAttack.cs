@@ -14,7 +14,7 @@ public abstract class UnitAttack : MonoBehaviour
         _unit.onEndOfMove.AddListener(HideAvailableUnitForAttacking);
     }
 */
+    public abstract void Attack(Unit unti);
     public abstract void ShowAvailableUnitForAttacking();
     public abstract void HideAvailableUnitForAttacking();
-    public abstract void Attack(Unit unti);
 }

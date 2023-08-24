@@ -10,9 +10,9 @@ public class Unit : MonoBehaviour
     public UnityEvent onEndOfMove = new UnityEvent();
 
     [field: SerializeField]
-    public UnitAttack Attack { get; private set; }
+    public UnitAttack c { get; private set; }
     [field: SerializeField]
-    public UnitTakingDamage TakeDamage { get; private set; }
+    public UnitTakingDamage TakingDamage { get; private set; }
     [field: SerializeField]
     public UnitMovement Movement { get; private set; }
     [field: SerializeField]
