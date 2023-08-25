@@ -17,6 +17,7 @@ public class QueueOfMoves : MonoBehaviour
         _currentMove = new LinkedList<Unit>();
         _followingMoves = new SortedDictionary<int, LinkedList<Unit>>();
         GameController.Instance.Units.onCreatingUnit.AddListener(AddUnit);
+        GameController.Instance.Units.onDieingUnit.AddListener(DeleteUnit);
     }
 
     public Unit GetNextUnit()

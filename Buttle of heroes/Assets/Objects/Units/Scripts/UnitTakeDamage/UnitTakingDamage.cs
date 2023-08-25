@@ -7,6 +7,7 @@ public class UnitTakingDamage: MonoBehaviour
 {
     public UnityEvent onDieing = new UnityEvent();
     public UnityEvent<float> onDamageTaken = new UnityEvent<float>();
+    public UnityEvent<int> onUnitDeaded = new UnityEvent<int>();
     public UnityEvent<float> onHealthTaken= new UnityEvent<float>();
 
     [SerializeField] protected Unit _unit;
@@ -42,7 +43,9 @@ public class UnitTakingDamage: MonoBehaviour
             _health = 0;
             onDieing.Invoke();
         }
+        _unit.RemoveDeadUnit(numberOfDeadedUnits);
 
-        _unit.RemoveDeadUnit(NumberOfUnit - (int)(_health /  _healthOfOneUnit));
+        onDamageTaken.Invoke(finalDamage);
+        onUnitDeaded.Invoke(numberOfDeadedUnits);
     }
 }

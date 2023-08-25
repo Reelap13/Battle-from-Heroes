@@ -10,8 +10,10 @@ public class UnitMeleeAttack : UnitAttack
     [SerializeField] private int _attackDistance;
     public override void Attack(Unit unit)
     {
-        float damage = UnityEngine.Random.Range(_minAttackDamageOfOneUnit * NumberOfUnit, _maxAttackDamageOfOneUnit * NumberOfUnit);
-        unit.TakeDamage(new Damage(_unit, damage));
+        float damageNumber = UnityEngine.Random.Range(_minAttackDamageOfOneUnit * NumberOfUnit, _maxAttackDamageOfOneUnit * NumberOfUnit);
+        Damage damage = new Damage(_unit, damageNumber);
+        onBegginingAttack.Invoke(damage);
+        unit.TakeDamage(damage);
     }
 
     public override void ShowAvailableUnitForAttacking()

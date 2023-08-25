@@ -54,6 +54,16 @@ public class GameBoardController : MonoBehaviour
         return freeFields;
     }
 
+    public LinkedList<Field> GetTheNearestFreeFields(KeyValuePair<int, int> indexes)
+    {
+        LinkedList<Field> availableFields = new LinkedList<Field>();
+        foreach (var field in _board.GetAllNearesFields(indexes))
+        {
+            if (field != null && field.IsFree)
+                availableFields.AddLast(field);
+        }
+        return availableFields;
+    }
     public Field GetField(KeyValuePair<int, int> indexes)
     {
         return _board.GetFieldByIndexes(indexes);

@@ -19,6 +19,8 @@ public class Unit : MonoBehaviour
     [field: SerializeField]
     public UnitMovement Movement { get; private set; }
     [field: SerializeField]
+    public UnitEffects Effects { get; private set; }
+    [field: SerializeField]
     public string Name { get; private set; }
     [field: SerializeField]
     public Sprite Icon { get; private set; }
@@ -87,5 +89,10 @@ public class Unit : MonoBehaviour
     {
         NumberOfUnits -= numberOfdeadedUnits;
         onChangeNumberOfUnits.Invoke(NumberOfUnits);
+    }
+
+    public void AddEffects(Effect effect)
+    {
+        Effects.AddEffect(effect);
     }
 }
