@@ -7,15 +7,21 @@ using UnityEngine.Events;
 public class Units : MonoBehaviour
 {
     public UnityEvent<Unit> onCreatingUnit = new UnityEvent<Unit>();
+    public UnityEvent<int> onWinningTeam = new UnityEvent<int>();
     public UnityEvent<Unit> onDieingUnit = new UnityEvent<Unit>();
 
     private LinkedList<Unit> _units;
     private void Awake()
     {
         _units = new LinkedList<Unit>();
+
+        onCreatingUnit.AddListener((Unit unit) =>
+        {
+            Debug.Log(unit.Name + " " + _units.Count);
+        });
         onDieingUnit.AddListener((Unit unit) =>
         {
-            Debug.Log($"{unit.Name} is die");
+            Debug.Log(unit.Name + " " + _units.Count);
         });
     }
 
@@ -66,6 +72,7 @@ public class Units : MonoBehaviour
         void RemoveUnit(Unit unit)
         {
             _units.Remove(unit);
+            CheckOnVictory();
             onDieingUnit.Invoke(unit);
         }
 
@@ -98,5 +105,28 @@ public class Units : MonoBehaviour
         }
 
         return shuffledField;
+    }
+
+    public void CheckOnVictory()
+    {
+        foreach (var unit in _units)
+        {
+            Debug.Log(unit.name + " " + unit.TeamId);
+        }
+
+        HashSet<int> set = new HashSet<int>();
+        foreach (Unit unit in _units)
+        {
+            if (!set.Contains(unit.TeamId))
+                set.Add(unit.TeamId);
+
+            if (set.Count > 1)
+                return;
+        }
+        if (set.Count > 1)
+            return;
+
+
+        onWinningTeam.Invoke(_units.First.Value.TeamId);
     }
 }
