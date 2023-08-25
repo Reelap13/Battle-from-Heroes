@@ -10,6 +10,7 @@ public class Unit : MonoBehaviour
     public UnityEvent<Unit> onDieing = new UnityEvent<Unit>();
     public UnityEvent onBegginingOfMove = new UnityEvent();
     public UnityEvent onEndOfMove = new UnityEvent();
+    public UnityEvent<int> onChangeNumberOfUnits = new UnityEvent<int>();
 
     [field: SerializeField]
     public UnitAttack Attack { get; private set; }
@@ -35,6 +36,7 @@ public class Unit : MonoBehaviour
 
         void Die()
         {
+            Field.Leave();
             onDieing.Invoke(this);
             Destroy(gameObject);
         }
@@ -48,6 +50,7 @@ public class Unit : MonoBehaviour
         Field = field;
         field.Enter(this);
         onCreating.Invoke();
+        onChangeNumberOfUnits.Invoke(NumberOfUnits);
     }
 
     public void StartUnitMove()
@@ -67,13 +70,22 @@ public class Unit : MonoBehaviour
             Field.Leave();
             Field = targetField;
             Movement.Move(targetField);
-            targetField.Enter(this);
         }
     }
 
     public void AttackUnit(Unit unit)
     {
-        Debug.Log("Attack " + unit.name);
-        //Attack.Attack(unit);
+        Attack.Attack(unit);
+    }
+
+    public void TakeDamage(Damage damage)
+    {
+        TakingDamage.TakeDamage(damage);
+    }
+
+    public void RemoveDeadUnit(int numberOfdeadedUnits)
+    {
+        NumberOfUnits -= numberOfdeadedUnits;
+        onChangeNumberOfUnits.Invoke(NumberOfUnits);
     }
 }

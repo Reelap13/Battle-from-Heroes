@@ -68,7 +68,9 @@ public class MeleeAttackCursorBehaviour : CursorBehaviour
     public override void Click()
     {
         Field movementField = GetMovementField(_angle);
-        if (movementField != null && movementField.IsFree)
+        if (movementField != null && 
+            ((movementField.IsFree && movementField.FieldType == FieldTypes.MOVEMENT) || 
+            movementField == Unit.Field))
         {
             Unit.MoveToField(movementField);
             Unit.AttackUnit(Field.Unit);

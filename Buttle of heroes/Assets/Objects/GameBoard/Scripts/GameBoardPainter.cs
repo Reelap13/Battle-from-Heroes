@@ -25,10 +25,12 @@ public class GameBoardPainter
     public void ClearAttackedField()
     {
         PaintField(_attackedField, FieldTypes.COMMON);
+        _attackedField.Clear();
     }
     public void ClearMovementField()
     {
         PaintField(_movementField, FieldTypes.COMMON);
+        _movementField.Clear();
     }
 
     private void PaintField(LinkedList<Field> fields, FieldTypes type)

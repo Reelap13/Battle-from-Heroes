@@ -10,6 +10,7 @@ public class UnitMovementOfTheGround : UnitMovement
     {
         onBegginingOfMoving.Invoke();
         Transform.position = targetField.transform.position;
+        targetField.Enter(_unit);
         onEndOfMoving.Invoke();
     }
 

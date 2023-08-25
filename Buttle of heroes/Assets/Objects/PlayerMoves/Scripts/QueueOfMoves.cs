@@ -48,6 +48,16 @@ public class QueueOfMoves : MonoBehaviour
         onChangingFollowingMoves.Invoke(GetFollowingMoves());
     }
 
+    public void AddUnitToTheNextMove(Unit unit)
+    {
+        /*Unit currentUnit = _currentMove.First.Value;
+        _currentMove.RemoveFirst();
+        _currentMove.AddLast(unit);
+        _currentMove.AddLast(currentUnit);*/
+        _currentMove.AddAfter(_currentMove.First, unit);
+        onChangingCurrentMove.Invoke(GetCurrentMove());
+    }
+
     public void DeleteUnit(Unit unit)
     {
         _currentMove.Remove(unit);
@@ -84,5 +94,13 @@ public class QueueOfMoves : MonoBehaviour
             }
         }
         return followingMoves;
+    }
+
+    public void PrintCurrentMove()
+    {
+        foreach (var unit in _currentMove)
+        {
+            Debug.Log(unit.Name);
+        }
     }
 }
