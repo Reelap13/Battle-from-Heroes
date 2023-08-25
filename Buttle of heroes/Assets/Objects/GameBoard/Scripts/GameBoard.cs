@@ -192,4 +192,9 @@ public class GameBoard
 
         return availableFields;
     }
+
+    public Field GetFieldByIndexes(KeyValuePair<int, int> indexes)
+    {
+        return _board.ContainsKey(indexes) ? _board[indexes] : null;
+    }
 }

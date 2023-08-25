@@ -70,4 +70,10 @@ public class Unit : MonoBehaviour
             targetField.Enter(this);
         }
     }
+
+    public void AttackUnit(Unit unit)
+    {
+        Debug.Log("Attack " + unit.name);
+        //Attack.Attack(unit);
+    }
 }

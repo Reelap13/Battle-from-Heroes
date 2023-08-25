@@ -15,19 +15,16 @@ public class Field : MonoBehaviour
     private Unit _unit = null;
     private FieldTypes _fieldTypes = FieldTypes.COMMON;
     private SpriteRenderer _spriteRenderer;
+    private Transform _transform;
 
     private void Awake()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
+        _transform = GetComponent<Transform>();
         _spriteRenderer.color = FieldTypesMethods.GetColorByType(_fieldTypes);
     }
 
     public void setPreset(KeyValuePair<int, int> indexes) { _indexes = indexes; }
-
-    private void OnMouseDown()
-    {
-        Debug.Log(Indexes);
-    }
 
     public void Enter(Unit unit)
     {
@@ -50,10 +47,10 @@ public class Field : MonoBehaviour
         get { return _fieldTypes; }
         set
         {
-            if (value == FieldTypes.ATTACKED || _fieldTypes == FieldTypes.ATTACKED)
-                Debug.Log(_fieldTypes + " " + value);
             _fieldTypes = value;
             _spriteRenderer.color = FieldTypesMethods.GetColorByType(value);
         }
     }
+
+    public Transform Transform { get { return _transform; } }
 }
