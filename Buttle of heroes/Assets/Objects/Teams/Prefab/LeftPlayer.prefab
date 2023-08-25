@@ -48,3 +48,5 @@ MonoBehaviour:
   HeroSprite: {fileID: 0}
   UnitPacks:
   - {fileID: 725703853054874133, guid: a1d2811a676ed734191d5bdd330cf7b3, type: 3}
+  - {fileID: 725703853054874133, guid: 2828fd6e4c8b9bf47afb58c7c7d01955, type: 3}
+  - {fileID: 725703853054874133, guid: 4d8d086d1054caf4da6a365f7b3da306, type: 3}

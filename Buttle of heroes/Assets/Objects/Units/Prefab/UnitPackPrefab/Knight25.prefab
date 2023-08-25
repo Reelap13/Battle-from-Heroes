@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7811715771623444060}
   - component: {fileID: 725703853054874133}
   m_Layer: 0
-  m_Name: Skeleton100
+  m_Name: Knight25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93bf4ce781c0a2149895553d91e000a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NumberOfUnit: 100
-  UnitPref: {fileID: 5164827532517556310, guid: 1d6789d5fb61417419d6d18b70677b93, type: 3}
+  NumberOfUnit: 25
+  UnitPref: {fileID: 6772851615404269931, guid: 16405fbd056d3e5468af1aa0b60a2d41, type: 3}
