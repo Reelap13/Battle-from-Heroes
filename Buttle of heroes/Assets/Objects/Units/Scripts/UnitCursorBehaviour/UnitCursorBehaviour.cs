@@ -41,7 +41,7 @@ public class UnitCursorBehaviour : MonoBehaviour
         _mouseCursorController = GameController.Instance.Cursor;
         _mouseCursorController.onEnterToField.AddListener(SetField);
         _mouseCursorController.onClickToField.AddListener(Click);
-        _mouseCursorController.onLeaveFromField.AddListener(SetField);
+        _mouseCursorController.onLeaveFromField.AddListener(DisactivateCursorBehaviour);
     }
 
     public void Disable()
@@ -49,7 +49,7 @@ public class UnitCursorBehaviour : MonoBehaviour
         DisactivateCursorBehaviour();
         _mouseCursorController.onEnterToField.RemoveListener(SetField);
         _mouseCursorController.onClickToField.RemoveListener(Click);
-        _mouseCursorController.onLeaveFromField.RemoveListener(SetField);
+        _mouseCursorController.onLeaveFromField.RemoveListener(DisactivateCursorBehaviour);
     }
 
     public void Click(Field field)
@@ -65,6 +65,8 @@ public class UnitCursorBehaviour : MonoBehaviour
         _activeCursorBehaviour.Enable();
     }
 
+
+    private void DisactivateCursorBehaviour(Field _) { DisactivateCursorBehaviour(); }
     private void DisactivateCursorBehaviour()
     {
         if (_activeCursorBehaviour != null)

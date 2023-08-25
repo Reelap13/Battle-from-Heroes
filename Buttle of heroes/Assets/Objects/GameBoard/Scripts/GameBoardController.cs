@@ -54,6 +54,11 @@ public class GameBoardController : MonoBehaviour
         return freeFields;
     }
 
+    public Field GetField(KeyValuePair<int, int> indexes)
+    {
+        return _board.GetFieldByIndexes(indexes);
+    }
+
     public void PaintAttackedFields(LinkedList<Field> fields) => _painter.PaintAttackedFields(fields);
     public void ClearAttackedField() => _painter.ClearAttackedField();
     public void PaintMovementFields(LinkedList<Field> fields) => _painter.PaintMovementFields(fields);

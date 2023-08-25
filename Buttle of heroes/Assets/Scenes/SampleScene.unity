@@ -974,7 +974,7 @@ PrefabInstance:
     - target: {fileID: 336629348849405893, guid: 57433a429d22f924190c56c775a9b20b, type: 3}
       propertyPath: _defaultCursor
       value: 
-      objectReference: {fileID: -1488613266, guid: 458ec2658b183a74f92005beb43da594, type: 3}
+      objectReference: {fileID: -1028630295, guid: 458ec2658b183a74f92005beb43da594, type: 3}
     - target: {fileID: 4173903997408813676, guid: 57433a429d22f924190c56c775a9b20b, type: 3}
       propertyPath: m_Name
       value: 'MouseCursorController '
