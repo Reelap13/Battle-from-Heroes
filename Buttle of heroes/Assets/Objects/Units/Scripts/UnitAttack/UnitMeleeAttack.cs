@@ -8,9 +8,10 @@ public class UnitMeleeAttack : UnitAttack
     [SerializeField] private float _minAttackDamageOfOneUnit;
     [SerializeField] private float _maxAttackDamageOfOneUnit;
     [SerializeField] private int _attackDistance;
-    public override void Attack(Unit unti)
+    public override void Attack(Unit unit)
     {
-        throw new System.NotImplementedException();
+        float damage = UnityEngine.Random.Range(_minAttackDamageOfOneUnit * NumberOfUnit, _maxAttackDamageOfOneUnit * NumberOfUnit);
+        unit.TakeDamage(new Damage(_unit, damage));
     }
 
     public override void ShowAvailableUnitForAttacking()
@@ -18,10 +19,6 @@ public class UnitMeleeAttack : UnitAttack
         LinkedList<Field> fields = GameController.Instance.Board.GetAllAvailableFieldsToMeleeAttack(
             Field, _unit.Movement.Movement, 
             _attackDistance, _unit.TeamId);
-        foreach(Field field in fields)
-        {
-            Debug.Log(field.Indexes);
-        }
         GameController.Instance.Board.PaintAttackedFields(fields);
     }
 

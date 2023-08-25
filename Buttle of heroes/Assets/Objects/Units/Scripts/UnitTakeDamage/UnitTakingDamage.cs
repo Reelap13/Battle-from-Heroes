@@ -17,17 +17,32 @@ public class UnitTakingDamage: MonoBehaviour
 
     private void Awake()
     {
-        void SetPreset() { _health = NumberOfUnit * _healthOfOneUnit; }
-        _unit.onCreating.AddListener(SetPreset);
+        SetPreset();
     }
 
-    public virtual void TakeDamage(float damage)
+    public virtual void SetPreset()
     {
-        _health -= damage;
-        if (_health < 0)
+        void SetHealth() { _health = NumberOfUnit * _healthOfOneUnit; }
+        _unit.onCreating.AddListener(SetHealth);
+    }
+
+    public virtual void TakeDamage(Damage damage)
+    {
+        TakeFinalDamage(damage.GetFinalDamage(), damage.Owner);
+    }
+
+    protected void TakeFinalDamage(float finalDamage, Unit damageDiller)
+    {
+        _health -= finalDamage;
+        int numberOfDeadedUnits = Mathf.Min(NumberOfUnit - (int)Mathf.Ceil(_health / _healthOfOneUnit), NumberOfUnit);
+        GameController.Instance.PlayerUI.ShowMessage($"{damageDiller.Name} dealt {(int)finalDamage} damage to {_unit.Name} " +
+            $"and kill {numberOfDeadedUnits} units");
+        if (_health <= 0)
         {
             _health = 0;
             onDieing.Invoke();
         }
+
+        _unit.RemoveDeadUnit(NumberOfUnit - (int)(_health /  _healthOfOneUnit));
     }
 }

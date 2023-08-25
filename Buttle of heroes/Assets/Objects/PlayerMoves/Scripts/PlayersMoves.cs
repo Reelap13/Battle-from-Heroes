@@ -29,6 +29,11 @@ public class PlayersMoves : MonoBehaviour
         return Queue.GetFollowingMoves();
     } 
 
+    public void AddInNextMove(Unit unit)
+    {
+        Queue.AddUnitToTheNextMove(unit);
+    }
+
     public UnityEvent<LinkedList<Unit>> OnChangingCurrentMove { get {  return Queue.onChangingCurrentMove; } }
     public UnityEvent<LinkedList<Unit>> OnChangingFollowingMoves { get {  return Queue.onChangingFollowingMoves; } }
 }
