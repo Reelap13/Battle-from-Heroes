@@ -47,4 +47,4 @@ MonoBehaviour:
   TeamName: Evil
   HeroSprite: {fileID: 0}
   UnitPacks:
-  - {fileID: 725703853054874133, guid: a1d2811a676ed734191d5bdd330cf7b3, type: 3}
+  - {fileID: 725703853054874133, guid: 1ed074b63767cf74883b1a0be208b417, type: 3}

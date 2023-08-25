@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public abstract class UnitAttack : MonoBehaviour
 {
+    public UnityEvent<Damage> onBegginingAttack = new UnityEvent<Damage>();
+
     [SerializeField] protected Unit _unit;
 
     protected int NumberOfUnit => _unit.NumberOfUnits;

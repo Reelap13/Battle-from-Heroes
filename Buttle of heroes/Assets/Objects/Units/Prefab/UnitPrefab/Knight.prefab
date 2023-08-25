@@ -50,6 +50,9 @@ MonoBehaviour:
   onDamageTaken:
     m_PersistentCalls:
       m_Calls: []
+  onUnitDeaded:
+    m_PersistentCalls:
+      m_Calls: []
   onHealthTaken:
     m_PersistentCalls:
       m_Calls: []
@@ -57,6 +60,50 @@ MonoBehaviour:
   _healthOfOneUnit: 20
   _startingReducingPercent: 99
   _amountOfReducing: 33
+--- !u!1 &1013544113615302163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7421143486885298173}
+  - component: {fileID: 4264913557372649419}
+  m_Layer: 0
+  m_Name: Effects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7421143486885298173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013544113615302163}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8097927101663039367}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4264913557372649419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013544113615302163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80ea8629e0832014e9adaaa435fb3079, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1045279732188084009
 GameObject:
   m_ObjectHideFlags: 0
@@ -101,6 +148,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae4270f18fda81b4a8dfc629ee32231d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onBegginingAttack:
+    m_PersistentCalls:
+      m_Calls: []
   _unit: {fileID: 7173225783112457293}
   _minAttackDamageOfOneUnit: 6
   _maxAttackDamageOfOneUnit: 10
@@ -556,6 +606,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 7421143486885298173}
   - {fileID: 6077473546385605381}
   - {fileID: 5267124084296589276}
   - {fileID: 1628243263984663663}
@@ -646,6 +697,7 @@ MonoBehaviour:
   <Attack>k__BackingField: {fileID: 765460623862365030}
   <TakingDamage>k__BackingField: {fileID: 7698329353197247428}
   <Movement>k__BackingField: {fileID: 3620096239196448144}
+  <Effects>k__BackingField: {fileID: 4264913557372649419}
   <Name>k__BackingField: Knight
   <Icon>k__BackingField: {fileID: -703070247, guid: 04d6aec0dbc41a9498820806896ce9b7, type: 3}
   <Initiative>k__BackingField: 4
